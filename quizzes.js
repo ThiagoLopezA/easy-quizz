@@ -64,7 +64,7 @@ const quizzes = [
     questions: [
       {
         question:
-          " Cual de las siguientes opciones corresponde la definición de un ataque? 'falsear la dirección fuente de un correo o email, enviando por tanto mensajes en nombre de otra persona",
+          "Cual de las siguientes opciones corresponde la definición de un ataque? 'falsear la dirección fuente de un correo o email, enviando por tanto mensajes en nombre de otra persona",
         options: ["Spamming", "Phishing", "Spoofing", "Malware"],
         answer: [2],
         multi: false,
@@ -2449,5 +2449,2633 @@ const quizzes = [
       },
     ],
   },
-  // Add more quizzes as needed
+  {
+    name: "Seguridad informatica Parcial 1",
+    questions: [
+      {
+        question:
+          "Además de los aspectos específicos inherentes a la seguridad de los activos de información, cuando se habla de seguridad informática, deben considerarse también otros aspectos. Identifica correctamente uno de esos aspectos en la siguiente lista:",
+        options: [
+          "Regulaciones legales aplicables a cada sector o tipo de organización",
+          "El costo de los activos de información",
+          "La velocidad de los sistemas",
+          "La accesibilidad de la información",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La seguridad informática no solo se centra en los activos de información, sino también en las regulaciones legales aplicables a cada sector o tipo de organización.",
+      },
+      {
+        question:
+          "A la hora de analizar y gestionar los riesgos, ¿Cuáles recursos deberían tenerse en cuenta? Seleccione la opción correcta:",
+        options: [
+          "Recursos de Hardware",
+          "Recursos humanos",
+          "Recursos financieros",
+          "Recursos de software",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En la gestión de riesgos, es fundamental considerar los recursos de hardware como parte de la infraestructura tecnológica.",
+      },
+      {
+        question: "¿Cuál es el objetivo de una medida de seguridad activa?",
+        options: [
+          "Anular o reducir el riesgo de una amenaza",
+          "Monitorear el tráfico de la red",
+          "Realizar copias de seguridad",
+          "Educar a los empleados sobre la seguridad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Las medidas de seguridad activa buscan anular o reducir el riesgo de una amenaza antes de que se materialice.",
+      },
+      {
+        question: "¿Cuál es el objetivo de una medida de seguridad pasiva?",
+        options: [
+          "Reducir el impacto cuando se produzca un incidente de seguridad",
+          "Prevenir accesos no autorizados",
+          "Mejorar la eficiencia del sistema",
+          "Aumentar la velocidad de la red",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Las medidas de seguridad pasiva están diseñadas para mitigar el impacto de un incidente de seguridad una vez que ocurre.",
+      },
+      {
+        question:
+          "Cuando hablamos de datos que se encuentran guardados en un equipo, nos referimos al servicio de seguridad de la información de...",
+        options: [
+          "Protección a la réplica",
+          "Autenticación",
+          "Encriptación",
+          "Monitoreo",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La protección a la réplica se refiere a la seguridad de los datos almacenados en un equipo para evitar su pérdida o corrupción.",
+      },
+      {
+        question:
+          "Cuando pretendemos garantizar la identidad de un usuario y/o terminal que se intenta conectar a la red, nos estamos refiriendo al servicio de...",
+        options: [
+          "Autenticación",
+          "Autorización",
+          "Integridad",
+          "Disponibilidad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El servicio de autenticación es el que garantiza la identidad de un usuario y/o terminal que se intenta conectar a la red.",
+      },
+      {
+        question:
+          "¿Cuáles son los puntos que integran el triángulo de la seguridad?",
+        options: [
+          "Integridad, disponibilidad, confidencialidad",
+          "Accesibilidad, rapidez, integridad",
+          "Confidencialidad, velocidad, disponibilidad",
+          "Confidencialidad, rapidez, accesibilidad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El triángulo de la seguridad se compone de integridad, disponibilidad y confidencialidad.",
+      },
+      {
+        question:
+          "¿Cuáles propiedades de la información intenta preservar la seguridad informática?",
+        options: [
+          "Confidencialidad, Integridad, Disponibilidad",
+          "Velocidad, Accesibilidad, Integridad",
+          "Confidencialidad, Velocidad, Accesibilidad",
+          "Integridad, Accesibilidad, Disponibilidad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La seguridad informática intenta preservar la confidencialidad, integridad y disponibilidad de la información.",
+      },
+      {
+        question: "El servicio de no-repudio...",
+        options: [
+          "Permite demostrar la autoría de un mensaje, de tal modo que el usuario que lo ha creado y enviado no pueda luego negar dicha acción",
+          "Protege los datos almacenados en un equipo",
+          "Garantiza la identidad de un usuario que se conecta a la red",
+          "Anula o reduce el riesgo de una amenaza",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El servicio de no-repudio permite demostrar la autoría de un mensaje, evitando que el usuario que lo ha creado y enviado niegue dicha acción.",
+      },
+      {
+        question:
+          "En el contexto del Análisis de Riesgos, una amenaza se puede clasificar en función del grado de intencionalidad que representa. Identifica correctamente a una de estas clasificaciones en la siguiente lista.",
+        options: [
+          "Actuaciones malintencionadas",
+          "Errores humanos",
+          "Fallas técnicas",
+          "Desastres naturales",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las clasificaciones de amenazas en el análisis de riesgos se basa en el grado de intencionalidad, como las actuaciones malintencionadas.",
+      },
+      {
+        question: "En el contexto del Análisis de Riesgos, ¿Qué es el Impacto?",
+        options: [
+          "La medición y valoración del daño que podría producir a la organización un incidente de seguridad",
+          "La probabilidad de que una amenaza se materialice sobre una vulnerabilidad",
+          "El proceso de identificación de activos a proteger",
+          "El análisis de las medidas de seguridad existentes",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El impacto en el análisis de riesgos se refiere a la medición y valoración del daño que podría producir a la organización un incidente de seguridad.",
+      },
+      {
+        question: "En el contexto del Análisis de Riesgos, ¿Qué es un riesgo?",
+        options: [
+          "La probabilidad de que una amenaza se materialice sobre una vulnerabilidad",
+          "La medición y valoración del daño que podría producir a la organización un incidente de seguridad",
+          "El proceso de identificación de activos a proteger",
+          "El análisis de las medidas de seguridad existentes",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un riesgo es la probabilidad de que una amenaza se materialice sobre una vulnerabilidad en el contexto del análisis de riesgos.",
+      },
+      {
+        question:
+          "En el contexto del Análisis de Riesgos, ¿Qué son los recursos?",
+        options: [
+          "Activos a proteger del sistema informático de la organización",
+          "Los usuarios del sistema",
+          "Las medidas de seguridad implementadas",
+          "Los datos almacenados",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En el análisis de riesgos, los recursos son los activos a proteger del sistema informático de la organización.",
+      },
+      {
+        question: "En el marco del Análisis de Riesgo, ¿Qué es el Impacto?",
+        options: [
+          "La medición y valoración del daño que podría producir a la organización un incidente de seguridad",
+          "La probabilidad de que una amenaza se materialice sobre una vulnerabilidad",
+          "El proceso de identificación de activos a proteger",
+          "El análisis de las medidas de seguridad existentes",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El impacto en el análisis de riesgos se refiere a la medición y valoración del daño que podría producir a la organización un incidente de seguridad.",
+      },
+      {
+        question:
+          "En el contexto del Análisis de Riesgos, una amenaza se puede clasificar en función del grado de intencionalidad que representa. Identifica correctamente a una de estas clasificaciones en la siguiente lista.",
+        options: [
+          "Actuaciones malintencionadas",
+          "Errores humanos",
+          "Fallas técnicas",
+          "Desastres naturales",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las clasificaciones de amenazas en el análisis de riesgos se basa en el grado de intencionalidad, como las actuaciones malintencionadas.",
+      },
+      {
+        question:
+          "En el contexto de la Gestión de Riesgos ¿Cómo es la secuencia de procesos en la apreciación del riesgo?",
+        options: [
+          "Identificar, Analizar, Evaluar",
+          "Planificar, Ejecutar, Monitorear",
+          "Analizar, Evaluar, Implementar",
+          "Evaluar, Identificar, Mitigar",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La secuencia de procesos en la apreciación del riesgo es Identificar, Analizar, Evaluar.",
+      },
+      {
+        question: "En relación al Riesgo, indica cuál afirmación es correcta.",
+        options: [
+          "No se pueden eliminar totalmente, pero si se pueden gestionar",
+          "Se pueden eliminar completamente",
+          "No se pueden gestionar de ninguna manera",
+          "Son siempre inevitables",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los riesgos no se pueden eliminar totalmente, pero si se pueden gestionar.",
+      },
+      {
+        question:
+          "En relación a la implementación de un sistema de gestión de seguridad de la información, ¿Cuáles son sus fases o etapas? Identifica las 4 (cuatro) opciones correctas.",
+        options: [
+          "Establecer un programa de mejora de la seguridad",
+          "Identificación y registro de activos",
+          "Definición de responsabilidades y asignación de recursos",
+          "Definición de las políticas de seguridad y del alcance del sistema de gestión de la seguridad de la información",
+          "Monitoreo continuo de las amenazas",
+          "Implementación de un sistema de backup automático",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases o etapas de un sistema de gestión de seguridad de la información incluyen establecer un programa de mejora de la seguridad, identificación y registro de activos, definición de responsabilidades y asignación de recursos, y definición de las políticas de seguridad y del alcance del sistema de gestión de la seguridad de la información.",
+      },
+      {
+        question:
+          "En relación a la Gestión de Riesgos, ¿Cuáles son los componentes? Identifica las 4 (cuatro) opciones correctas.",
+        options: [
+          "Análisis y detección de vulnerabilidades del sistema de información",
+          "Detección de amenazas",
+          "Definición e implementación de medidas de seguridad",
+          "Evaluación y gestión del riesgo",
+          "Reducción del costo operativo",
+          "Optimización de recursos humanos",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Los componentes de la gestión de riesgos incluyen análisis y detección de vulnerabilidades del sistema de información, detección de amenazas, definición e implementación de medidas de seguridad, y evaluación y gestión del riesgo.",
+      },
+      {
+        question:
+          "En relación a una Medida de seguridad, identifica cuál es la afirmación correcta.",
+        options: [
+          "Es cualquier medio empleado para eliminar o reducir un riesgo",
+          "Es un procedimiento de backup de datos",
+          "Es un sistema de monitoreo de red",
+          "Es una auditoría de seguridad anual",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una medida de seguridad es cualquier medio empleado para eliminar o reducir un riesgo.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: ["No repudio", "Accesibilidad", "Rapidez", "Costo-eficiencia"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El servicio de no repudio permite demostrar la autoría de un mensaje, evitando que el usuario que lo ha creado y enviado niegue dicha acción.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: [
+          "Reclamación de Origen",
+          "Velocidad",
+          "Redundancia",
+          "Flexibilidad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La reclamación de origen es un servicio de seguridad de la información que asegura la procedencia de los datos.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: [
+          "Disponibilidad",
+          "Escalabilidad",
+          "Usabilidad",
+          "Costo-beneficio",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La disponibilidad es un servicio de seguridad de la información que garantiza que los datos y servicios estén accesibles cuando se necesiten.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: ["Integridad", "Eficiencia", "Velocidad", "Compatibilidad"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La integridad es un servicio de seguridad de la información que asegura que los datos no sean alterados de manera no autorizada.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: [
+          "Protección a la réplica",
+          "Reducción de costos",
+          "Optimización de recursos",
+          "Mejora de la eficiencia",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La protección a la réplica se refiere a la seguridad de los datos almacenados en un equipo para evitar su pérdida o corrupción.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista.",
+        options: ["Autorización", "Aceleración", "Escalabilidad", "Usabilidad"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La autorización es un servicio de seguridad de la información que permite conceder o denegar el acceso a recursos específicos.",
+      },
+      {
+        question: "Identifica cuáles son desastres naturales.",
+        options: [
+          "Terremotos, inundaciones y humedad, tormentas eléctricas",
+          "Incendios forestales, caídas de rayos, avalanchas",
+          "Derrumbes, explosiones, incendios",
+          "Accidentes industriales, derrames químicos, incendios",
+        ],
+        answer: [0],
+        multi: true,
+        explanation:
+          "Los desastres naturales incluyen terremotos, inundaciones, humedad y tormentas eléctricas.",
+      },
+      {
+        question:
+          "La seguridad de un sistema informático depende de varios factores. Identifica de manera correcta a uno de ellos en la siguiente lista.",
+        options: [
+          "El soporte de los fabricantes de hardware y software",
+          "El costo de los activos",
+          "La velocidad de la red",
+          "La accesibilidad de la información",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La seguridad de un sistema informático depende, entre otros factores, del soporte de los fabricantes de hardware y software.",
+      },
+      {
+        question:
+          "La seguridad de un sistema informático depende de varios factores. Identifica de manera correcta a uno de ellos en la siguiente lista.",
+        options: [
+          "La sensibilización de los directivos y responsables de la organización",
+          "La cantidad de empleados",
+          "El costo de implementación",
+          "La accesibilidad de la red",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La sensibilización de los directivos y responsables de la organización es un factor clave para la seguridad de un sistema informático.",
+      },
+      {
+        question:
+          "La Seguridad Informática se plantea una serie de objetivos. Identifica correctamente a uno de éstos objetivos en la siguiente lista.",
+        options: [
+          "Minimizar y gestionar los riesgos y detectar los posibles problemas y amenazas a la seguridad",
+          "Aumentar la velocidad de la red",
+          "Reducir los costos de operación",
+          "Mejorar la usabilidad del sistema",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los objetivos de la seguridad informática es minimizar y gestionar los riesgos, así como detectar los posibles problemas y amenazas a la seguridad.",
+      },
+      {
+        question:
+          "Para cumplir con los objetivos de la seguridad informática, una organización debe contemplar cuatro planos de actuación. Identifica correctamente cuales son:",
+        options: [
+          "Plano técnico, plano legal, plano humano y plano organizativo",
+          "Plano financiero, plano operativo, plano estratégico, plano tecnológico",
+          "Plano de cumplimiento, plano de riesgos, plano de control, plano de desarrollo",
+          "Plano operacional, plano de gestión, plano de recursos, plano de comunicaciones",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los planos técnico, legal, humano y organizativo abarcan los aspectos más relevantes que una organización debe considerar para asegurar la protección de la información.",
+      },
+      {
+        question:
+          "¿Qué comprende un Sistema de Gestión de la Seguridad de la Información?",
+        options: [
+          "La política, estructura organizativa, recursos, procedimientos y procesos",
+          "El análisis de riesgos, protocolos de seguridad, métodos de control, y legislación",
+          "Los métodos de cifrado, las redes seguras, el personal capacitado y las auditorías",
+          "La planificación estratégica, los procedimientos operacionales, la formación continua y la revisión de políticas",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un Sistema de Gestión de la Seguridad de la Información incluye la política, estructura organizativa, recursos, procedimientos y procesos necesarios para gestionar la seguridad.",
+      },
+      {
+        question:
+          "Seguridad Informática y seguridad de la información no son la misma actividad, aunque se complementan",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es verdadero porque la seguridad informática se enfoca más en la protección de infraestructuras computacionales y la seguridad de la información se centra en proteger la información misma.",
+      },
+      {
+        question:
+          "¿A cuál de las siguientes amenazas se refiere la siguiente afirmación? 'Un ataque se clasifica de esta manera si un elemento no autorizado además de conseguir el acceso consigue modificar el objeto'",
+        options: [
+          "Interceptación",
+          "Intrusión",
+          "Usurpación",
+          "Ataque de modificación",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La amenaza descrita se refiere a una 'Interceptación', donde se accede y modifica la información sin autorización.",
+      },
+      {
+        question:
+          "En relación a los procedimientos de seguridad, selecciona la opción correcta",
+        options: [
+          "Se descomponen en tareas y operaciones concretas",
+          "Están basados únicamente en teorías generales",
+          "No necesitan ser revisados regularmente",
+          "Deben ser vagos para permitir flexibilidad",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los procedimientos de seguridad efectivos se descomponen en tareas y operaciones concretas para garantizar que se puedan implementar correctamente.",
+      },
+      {
+        question:
+          "Las políticas de seguridad deben cumplir con una serie de características y principios básicos. Identifica correctamente una de ellas en la siguiente lista.",
+        options: [
+          "Aplicación del principio de defensa en Profundidad",
+          "Implementación de software sin licencia",
+          "Uso de tecnologías obsoletas",
+          "Evitar auditorías y evaluaciones",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El principio de 'Defensa en Profundidad' es un enfoque fundamental en las políticas de seguridad para proporcionar múltiples capas de protección.",
+      },
+      {
+        question: "¿Cómo se define a un plan de seguridad?",
+        options: [
+          "Como un conjunto de decisiones que definen cursos de acción futuros",
+          "Como un documento legal que se debe seguir sin cambios",
+          "Como un protocolo de reacción ante incidentes ya ocurridos",
+          "Como una lista de posibles amenazas sin estrategias de mitigación",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un plan de seguridad define un conjunto de decisiones estratégicas que orientan las acciones futuras en materia de seguridad.",
+      },
+      {
+        question:
+          "Dentro de la estructura de una política de seguridad, ¿cuáles componentes deben estar incluidas? Identifica las 4 opciones correctas:",
+        options: [
+          "Objetivos perseguidos, Alcance, Compromiso de la dirección de la organización, Análisis y gestión de riesgos",
+          "Alcance",
+          "Compromiso de la dirección de la organización",
+          "Análisis y gestión de riesgos",
+          "Politicas de negocio",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Una política de seguridad debe incluir los objetivos perseguidos, el alcance, el compromiso de la dirección y la gestión de riesgos para ser efectiva.",
+      },
+      {
+        question:
+          "Las Políticas de Seguridad deben cumplir con una serie de características y principios básicos. Identifica correctamente una de ellas en la siguiente lista:",
+        options: [
+          "Asignación de mínimos privilegios",
+          "Ignorar amenazas conocidas",
+          "Permitir accesos indiscriminados",
+          "Reducir la vigilancia de recursos críticos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La asignación de mínimos privilegios es un principio clave en las políticas de seguridad, permitiendo solo el acceso necesario para realizar una función.",
+      },
+      {
+        question:
+          "Los procedimientos de seguridad ¿Qué permiten? Selecciona la opción correcta.",
+        options: [
+          "Aplicar e implementar las políticas de seguridad que han sido aprobadas por la organización",
+          "Evitar la creación de políticas de seguridad",
+          "Ignorar las normativas legales vigentes",
+          "Fomentar prácticas inseguras",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los procedimientos de seguridad permiten aplicar e implementar eficazmente las políticas de seguridad aprobadas por la organización.",
+      },
+      {
+        question:
+          "¿Qué aspecto NO corresponde a aquellos que debe tener en cuenta al momento de implantar un sistema de gestión de seguridad de la información?",
+        options: [
+          "Contratar los servicios de auditoria externas",
+          "Considerar la integridad de la información",
+          "Asegurar la confidencialidad de los datos",
+          "Mejorar la usabilidad del sistema",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Contratar servicios de auditoría externa no es un aspecto directamente relacionado con la implantación de un sistema de gestión de seguridad de la información.",
+      },
+      {
+        question: "¿Qué es la fiabilidad de un sistema?",
+        options: [
+          "La probabilidad de que un sistema se comporte tal y como se espera de él",
+          "La capacidad de un sistema de ser hackeado fácilmente",
+          "La frecuencia con la que un sistema falla",
+          "El costo de mantenimiento de un sistema",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La fiabilidad de un sistema se refiere a su probabilidad de funcionar correctamente según lo esperado bajo condiciones especificadas.",
+      },
+      {
+        question: "¿Qué definen las políticas de seguridad?",
+        options: [
+          "Qué se debe proteger en el sistema",
+          "Cómo aprovechar las vulnerabilidades",
+          "Cuáles son los beneficios de no seguir las normas",
+          "Cómo evitar la implementación de controles",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Las políticas de seguridad definen qué elementos y recursos del sistema deben ser protegidos.",
+      },
+      {
+        question: "¿Cuál es una descripción de seguridad física?",
+        options: [
+          "Todos aquellos mecanismos – generalmente de prevención y detección – destinados a proteger físicamente cualquier recurso del sistema",
+          "Métodos para asegurar la seguridad digital solamente",
+          "Protocolos que solo se aplican en entornos virtuales",
+          "Prácticas que ignoran la protección física de los recursos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La seguridad física incluye mecanismos de prevención y detección para proteger los recursos del sistema de daños físicos o acceso no autorizado.",
+      },
+      {
+        question:
+          "¿De qué depende la implementación de Control de Acceso en un sistema informático?",
+        options: [
+          "De la Gestión de Cuentas de Usuarios y de la Gestión de Permisos y Privilegios",
+          "Del estado del tiempo",
+          "De la política económica del país",
+          "De la preferencia personal del administrador del sistema",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La implementación de Control de Acceso depende críticamente de la gestión adecuada de cuentas de usuarios y la asignación de permisos y privilegios.",
+      },
+      {
+        question:
+          "En relación al Control de Accesos, en los tipos de Acceso Discrecional (DAC), ¿Cómo operan?",
+        options: [
+          "Los controles de acceso los controla y configura el propietario de cada objeto",
+          "Se asignan aleatoriamente",
+          "No existen restricciones ni regulaciones",
+          "Todos los usuarios tienen el mismo nivel de acceso",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En el Acceso Discrecional (DAC), el propietario de cada objeto tiene la autoridad para controlar y configurar quién puede acceder a dicho objeto.",
+      },
+      {
+        question:
+          "En relación al Control de Accesos, en un proceso de Identificacion ¿Cuáles elementos pueden utilizarse para identificar a un Usuario?",
+        options: [
+          "Algo que el Usuario posee",
+          "Algo que el Usuario conoce",
+          "Algo que el Usuario es",
+          "Algo que el Usuario sabe hacer",
+          "Algo que el Usuario desea",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Los elementos de identificación incluyen algo que el usuario posee (como una tarjeta), algo que conoce (como una contraseña), algo que es (como una huella digital), y algo que sabe hacer (como firmar).",
+      },
+      {
+        question:
+          "En relación al Control de Accesos, identifica correctamente cuál es el principio de seguridad básico",
+        options: [
+          "Todo lo que no está expresamente permitido en el sistema debería estar prohibido",
+          "Permitir todo a menos que se indique lo contrario",
+          "Ignorar las solicitudes de acceso no usuales",
+          "No verificar las credenciales",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un principio de seguridad básico en el control de accesos es que todo lo que no está expresamente permitido debería estar prohibido, asegurando así la máxima seguridad.",
+      },
+      {
+        question: "¿Qué se entiende por Defensa Física?",
+        options: [
+          "Se refiere a las medidas que implican el control de acceso físico a los recursos y las condiciones ambientales en que tienen que ser utilizados",
+          "Solo implica el uso de guardias de seguridad",
+          "Se limita a la protección contra desastres naturales",
+          "Consiste únicamente en el cifrado de datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La Defensa Física incluye medidas para controlar el acceso físico a los recursos y gestionar las condiciones ambientales para su uso seguro y eficiente.",
+      },
+      {
+        question: "Se define como 'Incidentes de seguridad'",
+        options: [
+          "Cualquier evento, ya sea accidental o intencional, que pueda provocar algún daño en el sistema informático, ocasionando pérdidas a la organización",
+          "Solo ataques intencionales por parte de hackers",
+          "Eventos que no tienen impacto en la seguridad",
+          "Solo errores operativos que no implican ataques externos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un incidente de seguridad puede ser cualquier evento, accidental o intencional, que cause daño al sistema informático y resulte en pérdidas para la organización.",
+      },
+      {
+        question: "Se define como 'incidentes de Seguridad'...",
+        options: [
+          "La materialización de una Amenaza que provoque pérdidas a la organización",
+          "Solo errores menores que no afectan operaciones",
+          "Eventos sin consecuencias financieras",
+          "Situaciones controladas fácilmente sin pérdidas",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los incidentes de seguridad se definen como la materialización de una amenaza que efectivamente provoca pérdidas a la organización.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones contiene una definición que NO corresponde a una estrategia de protección?",
+        options: [
+          "Estrategia de protección al nivel logístico",
+          "Estrategia de protección a nivel de datos",
+          "Estrategia de protección a nivel de aplicación",
+          "Estrategia de protección a nivel de red",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La 'Estrategia de protección al nivel logístico' no es típicamente considerada una estrategia de protección en el contexto de seguridad informática, que generalmente se centra en niveles como datos, aplicación y red.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones contiene una definición que NO corresponde a una estrategia de protección?",
+        options: [
+          "Al nivel de comunicación",
+          "Al nivel de infraestructura",
+          "Al nivel de software",
+          "Al nivel de hardware",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una 'Estrategia de protección al nivel de comunicación' es ambigua en este contexto y no se ajusta claramente a las categorías establecidas de estrategias de protección que incluyen infraestructura, software y hardware.",
+      },
+      {
+        question:
+          "En relación a los sistemas de detección de intrusiones (IDS), ¿cuáles son sus características? Identifica las 3 (tres) opciones correctas.",
+        options: [
+          "Son capaces de emitir alertas automáticas",
+          "Son soluciones basadas en reglas",
+          "Son capaces de detectar y prevenir anomalías y violaciones a las políticas de seguridad",
+          "Requieren intervención manual para todas las operaciones",
+          "No pueden operar en tiempo real",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "Los sistemas de detección de intrusiones son automáticos, basados en reglas, y pueden detectar y prevenir violaciones a la seguridad.",
+      },
+      {
+        question:
+          "En relación a los sistemas de detección de intrusiones (IDS), ¿qué tipos existen? Identifica las 2 (dos) opciones.",
+        options: [
+          "IDS a nivel de equipo",
+          "IDS a nivel de red",
+          "IDS a nivel de software",
+          "IDS a nivel de usuario",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Los tipos principales de sistemas IDS incluyen los que operan a nivel de equipo y a nivel de red.",
+      },
+      {
+        question:
+          "La protección conseguida con distintas técnicas y herramientas informáticas, ¿a qué tipo de defensa corresponde?",
+        options: [
+          "Defensa Lógica",
+          "Defensa Física",
+          "Defensa Estratégica",
+          "Defensa Operativa",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Las técnicas y herramientas informáticas proporcionan una Defensa Lógica al transformar datos en formatos protegidos y gestionar accesos.",
+      },
+      {
+        question:
+          "En relación a las herramientas de detección y protección, selecciona la opción correcta acerca de los sistemas de detección de intrusos.",
+        options: [
+          "Cuentan con un motor de análisis encargado de detectar evidencia de intentos de intrusión",
+          "Operan sin ningún tipo de análisis automatizado",
+          "Solo pueden detectar intrusos conocidos",
+          "Requieren autorización del intruso para detectar",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los sistemas de detección de intrusos incluyen un motor de análisis que automáticamente detecta intentos de intrusión analizando patrones de comportamiento y datos.",
+      },
+      {
+        question:
+          "En relación a los tipos de medidas de protección, identifica correctamente cuales son los tipos válidos en la siguiente lista. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "Administración",
+          "Detección",
+          "Recuperación",
+          "Minimización/Limitación del impacto",
+          "Incremento de amenazas",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las medidas de protección válidas incluyen la administración de la seguridad, la detección de amenazas, la recuperación de daños y la minimización del impacto de las brechas de seguridad.",
+      },
+      {
+        question:
+          "August Kerckhoffs, en la Teoría de los Algoritmos Públicos, propone una serie de principios. Identifica correctamente uno de estos principios.",
+        options: [
+          "La única fortaleza de un Algoritmo Criptográfico debe residir en la clave utilizada",
+          "La fortaleza reside en la complejidad del algoritmo",
+          "No se deben usar claves en la criptografía",
+          "El algoritmo debe ser público y conocido por todos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Según Kerckhoffs, la seguridad de un algoritmo criptográfico no debe depender de su secreto, sino de la secrecía de la clave.",
+      },
+      {
+        question:
+          "¿Cómo se conoce a la Ciencia que inventa sistemas de cifrado de la información y criptoanálisis?",
+        options: [
+          "Criptología",
+          "Infoseguridad",
+          "Dataciencia",
+          "Programación segura",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La Criptología es la ciencia que estudia el cifrado de la información y el criptoanálisis.",
+      },
+      {
+        question:
+          "¿Cómo se conoce a la Ciencia que se ocupa de estudiar herramientas y técnicas para vulnerar a un sistema criptográfico?",
+        options: [
+          "Criptoanálisis",
+          "Criptografía",
+          "Análisis de Seguridad",
+          "Hacking Ético",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El Criptoanálisis es la disciplina que estudia cómo vulnerar los sistemas criptográficos para encontrar debilidades.",
+      },
+      {
+        question:
+          "¿Cómo se denominan los algoritmos de cifrado, donde los símbolos cambian su orden dentro del texto cifrado?",
+        options: [
+          "Algoritmos de Transposición",
+          "Algoritmos de Sustitución",
+          "Algoritmos de Encriptación",
+          "Algoritmos de Compresión",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los Algoritmos de Transposición son aquellos en los cuales los símbolos del texto original cambian de posición.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones describe correctamente a la criptografía?",
+        options: [
+          "Es la ciencia que se encarga de la protección de datos mediante la transformación de los mismos a un formato ilegible",
+          "Es la técnica de hackear sistemas para obtener datos",
+          "Es el estudio de cómo evitar el uso de cualquier forma de cifrado",
+          "Es un método para transmitir mensajes abiertamente sin protección",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La criptografía es la ciencia que se enfoca en proteger datos transformándolos en formatos que no pueden ser leídos sin una clave específica.",
+      },
+      {
+        question:
+          "En relación a los sistemas de detección de intrusiones (IDS) ¿Cuáles son sus características? Identifica las 3(tres) opciones correctas.",
+        options: [
+          "Son capaces de emitir alertas automáticas.",
+          "Son soluciones basadas en reglas.",
+          "Son capaces de detectar y prevenir anomalías y violaciones a las políticas de seguridad.",
+          "Son difíciles de configurar.",
+          "Solo funcionan en grandes redes.",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "Las características clave de los sistemas de detección de intrusiones incluyen la capacidad de emitir alertas automáticas, basarse en reglas, y detectar y prevenir anomalías y violaciones a las políticas de seguridad.",
+      },
+      {
+        question:
+          "En relación a los sistemas de detección de intrusiones (IDS) ¿Qué tipos existen? Identifica las 2 (dos) opciones",
+        options: [
+          "IDS a nivel de equipo",
+          "IDS a nivel de red",
+          "IDS basados en firmas",
+          "IDS híbridos",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Existen IDS a nivel de equipo y a nivel de red, cada uno enfocado en detectar intrusiones en diferentes niveles de la infraestructura de TI.",
+      },
+      {
+        question:
+          "La protección conseguida con distintas técnicas y herramientas informáticas, ¿A que tipo de defensa corresponde? Seleccione la opción correcta.",
+        options: [
+          "Defensa Lógica",
+          "Defensa Física",
+          "Defensa Perimetral",
+          "Defensa Administrativa",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La defensa lograda con técnicas y herramientas informáticas se considera una defensa lógica, ya que protege los sistemas de información a nivel lógico.",
+      },
+      {
+        question:
+          "En relación a las herramientas de detección y protección, selecciona la opción correcta acerca de los sistemas de detección de intrusos.",
+        options: [
+          "Cuentan con un motor de análisis encargado de detectar evidencia de intentos de intrusión.",
+          "Se basan únicamente en patrones predefinidos.",
+          "No requieren actualizaciones constantes.",
+          "Son completamente automáticos sin intervención humana.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los sistemas de detección de intrusos cuentan con un motor de análisis que detecta evidencias de intentos de intrusión, lo que es fundamental para su efectividad.",
+      },
+      {
+        question:
+          "En relación a los tipos de medidas de protección, identifica correctamente cuales son los tipos validos en la siguiente lista. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "Administración",
+          "Detección",
+          "Recuperación",
+          "Minimización/Limitación del impacto",
+          "Prevención",
+          "Auditoría",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las medidas de protección válidas incluyen la administración, detección, recuperación y minimización/limitación del impacto, cada una de las cuales juega un papel crucial en la seguridad informática.",
+      },
+      {
+        question:
+          "August Kerckhoffs, en la Teoría de los Algoritmos Públicos, propone una serie de principios. Identifica correctamente uno de estos principios. Selecciona la opción correcta.",
+        options: [
+          "La única fortaleza de un Algoritmo Criptográfico debe residir en la clave utilizada.",
+          "El algoritmo debe ser mantenido en secreto absoluto.",
+          "La seguridad del sistema depende de la complejidad del algoritmo.",
+          "Solo las organizaciones gubernamentales deben usar criptografía avanzada.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los principios de Kerckhoffs es que la única fortaleza de un algoritmo criptográfico debe residir en la clave utilizada, no en el secreto del algoritmo.",
+      },
+      {
+        question:
+          "¿Cómo se conoce a la Ciencia que inventa sistemas de cifrado de la información y criptoanálisis?",
+        options: [
+          "Criptología",
+          "Criptoanálisis",
+          "Criptografía",
+          "Esteganografía",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La ciencia que inventa sistemas de cifrado de la información y criptoanálisis se conoce como criptología.",
+      },
+      {
+        question:
+          "¿Cómo se conoce a la Ciencia que se ocupa de estudiar herramientas y técnicas para vulnerar a un sistema criptográfico?",
+        options: [
+          "Criptoanálisis",
+          "Criptografía",
+          "Criptología",
+          "Seguridad informática",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La ciencia que estudia herramientas y técnicas para vulnerar a un sistema criptográfico se llama criptoanálisis.",
+      },
+      {
+        question:
+          "¿Cómo se denominan los algoritmos de cifrado, adonde los símbolos cambian su orden dentro del texto cifrado? Selecciona la opcion correcta.",
+        options: [
+          "Algoritmos de Transposición",
+          "Algoritmos de Sustitución",
+          "Algoritmos Asimétricos",
+          "Algoritmos Simétricos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los algoritmos de cifrado donde los símbolos cambian su orden dentro del texto cifrado se denominan algoritmos de transposición.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones describe correctamente a la criptografía?",
+        options: [
+          "Es la ciencia que se encarga de la protección de datos mediante la transformación de los mismos a un formato ilegible.",
+          "Es la técnica de esconder información dentro de otro medio.",
+          "Es el estudio de las contraseñas y claves de seguridad.",
+          "Es el análisis de vulnerabilidades de los sistemas de información.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La criptografía es la ciencia que se encarga de la protección de datos mediante la transformación de los mismos a un formato ilegible.",
+      },
+      {
+        question:
+          "De las siguientes opciones. ¿Cual es un método de criptografía visual?",
+        options: [
+          "Grafología",
+          "Esteganografía",
+          "Cifrado de César",
+          "Cifrado Vigenère",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La grafología es un método de criptografía visual, utilizado para analizar y autenticar documentos manuscritos.",
+      },
+      {
+        question:
+          "De las siguientes opciones, ¿Cuál es un método de criptografía visual?",
+        options: [
+          "Imagen Partida",
+          "Esquema de Vigenère",
+          "Cifrado RSA",
+          "Cifrado AES",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La imagen partida es un método de criptografía visual, donde una imagen se divide en partes que deben ser reunidas para obtener el mensaje completo.",
+      },
+      {
+        question: "En Criptografía ¿Qué se entiende por confusión?",
+        options: [
+          "Es la acción de reducir la relación entre el texto claro y el texto cifrado dificultando el análisis de patrones estadísticos.",
+          "Es el proceso de mezclar los datos en una forma no predecible.",
+          "Es el uso de múltiples claves para encriptar datos.",
+          "Es la técnica de esconder información dentro de otro medio.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía, la confusión se refiere a la acción de reducir la relación entre el texto claro y el texto cifrado, dificultando el análisis de patrones estadísticos.",
+      },
+      {
+        question:
+          "¿En que se basa la robustez de un sistema criptográfico? Seleccione la opción correcta.",
+        options: [
+          "En la clave criptográfica utilizada.",
+          "En la complejidad del algoritmo.",
+          "En el tamaño del texto cifrado.",
+          "En la cantidad de usuarios.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La robustez de un sistema criptográfico se basa en la clave criptográfica utilizada, ya que esta es la base para la seguridad del cifrado.",
+      },
+      {
+        question:
+          "En relación a los algoritmos de sustitución monoalfabética, identifica la afirmación correcta:",
+        options: [
+          "Cada uno de los símbolos se representa con otro símbolo en una relación de uno a uno.",
+          "Los símbolos se cambian en bloques de tamaño variable.",
+          "La clave cambia con cada símbolo cifrado.",
+          "Se utilizan múltiples alfabetos para la sustitución.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En los algoritmos de sustitución monoalfabética, cada símbolo del texto claro se representa con otro símbolo en una relación de uno a uno.",
+      },
+      {
+        question:
+          "En relación a los algoritmos de Transposición, ¿Qué añaden al texto cifrado? Seleccione la opción correcta:",
+        options: ["Difusión.", "Confusión.", "Redundancia.", "Integridad."],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los algoritmos de transposición añaden difusión al texto cifrado, que se refiere a la dispersión de la información del texto claro en el texto cifrado.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las técnicas de criptoanálisis entre las siguientes opciones.",
+        options: [
+          "Criptoanálisis lineal",
+          "Criptoanálisis diferencial",
+          "Criptoanálisis algebraico",
+          "Criptoanálisis estadístico",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El criptoanálisis lineal es una técnica utilizada para analizar y vulnerar sistemas criptográficos.",
+      },
+      {
+        question:
+          "La teoría de los algoritmos públicos definida por Auguste Kerckhoffs define una serie de principios. ¿Cuáles son? Identifica la opción correcta.",
+        options: [
+          "La fortaleza de un algoritmo criptográfico no debe estar basada en el conocimiento de su diseño.",
+          "El algoritmo debe ser mantenido en secreto absoluto.",
+          "La seguridad del sistema depende de la complejidad del algoritmo.",
+          "Solo las organizaciones gubernamentales deben usar criptografía avanzada.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los principios de Kerckhoffs es que la fortaleza de un algoritmo criptográfico no debe estar basada en el conocimiento de su diseño, sino en la clave utilizada.",
+      },
+      {
+        question: "¿Qué es el criptoanálisis? Selecciona la opción correcta.",
+        options: [
+          "Es la ciencia que se ocupa de estudiar herramienta y técnicas para vulnerar a un sistema criptográfico.",
+          "Es el estudio de la creación de algoritmos criptográficos.",
+          "Es la técnica de ocultar información dentro de otros datos.",
+          "Es el análisis de la eficiencia de los sistemas criptográficos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El criptoanálisis es la ciencia que se ocupa de estudiar herramientas y técnicas para vulnerar a un sistema criptográfico.",
+      },
+      {
+        question: "¿Qué es un criptograma? Selecciona la opción correcta.",
+        options: [
+          "Es el texto modificado producido por un Criptosistema.",
+          "Es la clave utilizada para cifrar un mensaje.",
+          "Es el mensaje original antes de ser cifrado.",
+          "Es el algoritmo utilizado para cifrar el mensaje.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un criptograma es el texto modificado producido por un criptosistema, resultante del proceso de cifrado.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones contiene una afirmación correcta acerca de los algoritmos de claves simétricas?",
+        options: [
+          "Son excelentes para cifrar datos de manera rápida y segura. Sin embargo, su punto débil reside en que el remitente y el destinatario deben intercambiar una clave secreta antes de intercambiar datos.",
+          "Son lentos pero extremadamente seguros.",
+          "Utilizan claves diferentes para cifrar y descifrar.",
+          "No requieren intercambio previo de claves entre remitente y destinatario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los algoritmos de claves simétricas son rápidos y seguros, pero su debilidad está en la necesidad de que el remitente y el destinatario intercambien una clave secreta antes de la comunicación.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones contiene una afirmación correcta sobre el algoritmo DES?",
+        options: [
+          "Es un sistema de clave privado tanto de cifrado como de descifrado.",
+          "Utiliza una clave pública para el cifrado y una privada para el descifrado.",
+          "Es un algoritmo de clave asimétrica.",
+          "Se basa en la factorización de grandes números primos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El algoritmo DES (Data Encryption Standard) utiliza una clave privada tanto para cifrar como para descifrar, siendo un sistema de clave simétrica.",
+      },
+      {
+        question:
+          "¿Cuál es el principal problema que presenta la criptografía simétrica? Identifica la opción correcta:",
+        options: [
+          "El intercambio de la clave de cifrado a través de un canal seguro.",
+          "La longitud de las claves utilizadas.",
+          "La complejidad de los algoritmos.",
+          "La velocidad de cifrado y descifrado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El principal problema de la criptografía simétrica es el intercambio seguro de la clave de cifrado, ya que ambas partes deben conocer y mantener en secreto la misma clave.",
+      },
+      {
+        question:
+          "En criptografía Simétrica, las claves públicas y privadas de cada usuario están relacionadas matemáticamente entre sí.",
+        options: ["Verdadero", "Falso"],
+        answer: [1],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, solo se utiliza una clave para el cifrado y descifrado, por lo que no hay claves públicas y privadas relacionadas matemáticamente.",
+      },
+      {
+        question:
+          "En criptografía Simétrica ¿Cuántas claves se emplean para el cifrado y descifrado?",
+        options: [
+          "Una sola clave tanto para el cifrado como para el descifrado.",
+          "Dos claves diferentes: una para cifrar y otra para descifrar.",
+          "Tres claves: una para cifrar, otra para descifrar y una clave de sesión.",
+          "No se utilizan claves en la criptografía simétrica.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En la criptografía simétrica, se emplea una sola clave tanto para el cifrado como para el descifrado del mensaje.",
+      },
+      {
+        question:
+          "En relación a la criptografía simétrica, identifica cual afirmación es correcta:",
+        options: [
+          "Toda la seguridad del Sistema depende de la confidencialidad de la Clave.",
+          "Se utiliza una clave pública para el cifrado y una privada para el descifrado.",
+          "Las claves utilizadas son mucho más largas que en la criptografía asimétrica.",
+          "El algoritmo es público y no necesita mantener ninguna parte en secreto.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, la seguridad del sistema depende completamente de la confidencialidad de la clave utilizada.",
+      },
+      {
+        question:
+          "En relación a la criptografía simétrica, identifica cual afirmación es correcta:",
+        options: [
+          "Se emplea la misma clave para cifrar y descifrar.",
+          "Utiliza dos claves diferentes: una para cifrar y otra para descifrar.",
+          "Requiere más tiempo de procesamiento que la criptografía asimétrica.",
+          "No depende de la confidencialidad de la clave.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, se utiliza la misma clave para cifrar y descifrar, lo que es una de sus principales características.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las ventajas de la Criptografía simétrica:",
+        options: [
+          "Son algoritmos muy rápidos y eficientes desde el punto de vista computacional.",
+          "No requieren intercambio previo de claves.",
+          "Son más seguros que los algoritmos de clave pública.",
+          "Permiten una encriptación sin claves.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las ventajas de la criptografía simétrica es que sus algoritmos son muy rápidos y eficientes desde el punto de vista computacional.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las ventajas de la Criptografía simétrica. Selecciona la opción correcta:",
+        options: [
+          "Requieren de un reducido tiempo de cálculo para realizar el cifrado y descifrado de los mensajes.",
+          "No dependen de la confidencialidad de la clave.",
+          "Utilizan dos claves diferentes para mayor seguridad.",
+          "Son completamente invulnerables a ataques criptográficos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las ventajas de la criptografía simétrica es que requiere de un reducido tiempo de cálculo para realizar el cifrado y descifrado de los mensajes.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las propiedades que debe cumplir una función resumen:",
+        options: [
+          "No es factible encontrar dos mensajes originales que generen la misma huella digital.",
+          "Es fácilmente reversible.",
+          "Genera una huella digital de longitud variable.",
+          "Utiliza una clave secreta para generar el resumen.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una función resumen debe cumplir con la propiedad de que no sea factible encontrar dos mensajes originales que generen la misma huella digital, asegurando la integridad y unicidad del resumen.",
+      },
+      {
+        question:
+          "¿Qué es una función resumen o hash? Seleccione la opción correcta.",
+        options: [
+          "Es un algoritmo que realiza una serie de operaciones matemáticas sobre el mensaje original para obtener un valor de tamaño fijo.",
+          "Es un método para cifrar mensajes usando una clave secreta.",
+          "Es un proceso para intercambiar claves de manera segura.",
+          "Es un algoritmo que garantiza la confidencialidad de los datos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una función resumen o hash es un algoritmo que realiza una serie de operaciones matemáticas sobre el mensaje original para obtener un valor de tamaño fijo, utilizado para asegurar la integridad de los datos.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones es una afirmación correcta sobre firma digital?",
+        options: [
+          "Es un medio para que los creadores de un mensaje, archivo y otra información codificada digitalmente vinculen su identidad a la información.",
+          "Es un método para cifrar datos utilizando una clave pública.",
+          "Es un proceso de autenticar usuarios en una red.",
+          "Es una técnica para ocultar información dentro de otro mensaje.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La firma digital es un medio para que los creadores de un mensaje, archivo y otra información codificada digitalmente vinculen su identidad a la información, asegurando su autenticidad y no repudio.",
+      },
+      {
+        question:
+          "¿Cuál es el principal problema que representa la Criptografía Asimétrica? Indica la opción correcta.",
+        options: [
+          "Los algoritmos son lentos y consumen recursos computacionales.",
+          "Es difícil intercambiar las claves de manera segura.",
+          "Las claves son demasiado cortas para garantizar la seguridad.",
+          "No proporciona autenticación.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El principal problema de la criptografía asimétrica es que los algoritmos son lentos y consumen muchos recursos computacionales, lo que puede ser un inconveniente en ciertas aplicaciones.",
+      },
+      {
+        question:
+          "En Criptografía Asimétrica ¿Cuántas claves se emplean para el cifrado y descifrado?",
+        options: [
+          "Una clave para cifrado y otra clave distinta para el descifrado.",
+          "Una sola clave para ambos procesos.",
+          "Dos claves idénticas para cifrar y descifrar.",
+          "Ninguna clave, se utilizan contraseñas en su lugar.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía asimétrica se emplean dos claves diferentes: una para cifrar y otra distinta para descifrar, lo que permite asegurar la comunicación sin necesidad de compartir una clave secreta.",
+      },
+      {
+        question:
+          "El principal problema de los criptosistemas asimétricos es que los algoritmos son lentos y consumen recursos computacionales.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es cierto que el principal problema de los criptosistemas asimétricos es que los algoritmos son lentos y consumen recursos computacionales, lo que puede limitar su uso en ciertas aplicaciones.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones indica un aspecto importante en la criptografía asimétrica?",
+        options: [
+          "La longitud de las claves.",
+          "La velocidad de los algoritmos.",
+          "La simplicidad de las operaciones matemáticas.",
+          "La necesidad de una única clave para cifrado y descifrado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía asimétrica, la longitud de las claves es un aspecto importante, ya que una mayor longitud generalmente proporciona una mayor seguridad.",
+      },
+      {
+        question: "¿Cuál es la utilidad de un certificado digital?",
+        options: [
+          "Demostrar que una clave pública pertenece a un usuario concreto.",
+          "Cifrar datos utilizando una clave secreta.",
+          "Autenticar a usuarios en una red privada.",
+          "Generar claves de cifrado automáticamente.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La utilidad de un certificado digital es demostrar que una clave pública pertenece a un usuario concreto, asegurando la autenticidad y la confianza en la comunicación.",
+      },
+      {
+        question:
+          "En una Infraestructura de clave pública (KPI) ¿Cuál elemento está constituido por una clave pública y un identificador firmados digitalmente por una autoridad de certificación? Seleccione la opción correcta.",
+        options: [
+          "Certificado digital.",
+          "Clave privada.",
+          "Token de seguridad.",
+          "Contraseña.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En una Infraestructura de Clave Pública (KPI), un certificado digital está constituido por una clave pública y un identificador firmados digitalmente por una autoridad de certificación.",
+      },
+      {
+        question:
+          "Identifica correctamente uno de los campos de un certificado digital, entre las siguientes opciones.",
+        options: [
+          "Periodo de validez del certificado digital.",
+          "Clave privada del usuario.",
+          "Dirección IP del usuario.",
+          "Historial de navegación del usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los campos de un certificado digital es el periodo de validez del certificado digital, que indica el tiempo durante el cual el certificado es considerado válido y confiable.",
+      },
+      {
+        question:
+          "Identifica correctamente uno de los campos de un certificado digital, entre las siguientes opciones.",
+        options: [
+          "Nombre común (CN).",
+          "Clave privada del usuario.",
+          "Dirección física del usuario.",
+          "Número de teléfono del usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El nombre común (CN) es uno de los campos de un certificado digital, que identifica al propietario del certificado de manera única.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes opciones tiene las siglas del protocolo que da seguridad a las transacciones por internet?",
+        options: ["SSL", "HTTP", "FTP", "SMTP"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "SSL (Secure Sockets Layer) es el protocolo que proporciona seguridad a las transacciones por internet mediante el cifrado de los datos transmitidos entre el servidor y el cliente.",
+      },
+      {
+        question:
+          "¿Cuáles servicios de seguridad ofrece una infraestructura de clave pública (KPI)? Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "Confidencialidad",
+          "Integridad",
+          "No repudio",
+          "Autenticación",
+          "Disponibilidad",
+          "Encriptación",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Una infraestructura de clave pública (KPI) ofrece servicios de confidencialidad, integridad, no repudio y autenticación, todos ellos esenciales para asegurar la comunicación y el intercambio de datos.",
+      },
+      {
+        question:
+          "¿Cómo está constituida una Infraestructura de Clave Publica (KPI)?",
+        options: [
+          "Está constituida por Autoridades de Certificación, Autoridades de Registro y tecnología de certificados digitales.",
+          "Está compuesta únicamente por servidores de claves.",
+          "Está formada por usuarios y sus claves privadas.",
+          "Consiste solo en un repositorio central de claves.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una Infraestructura de Clave Pública (KPI) está constituida por Autoridades de Certificación, Autoridades de Registro y tecnología de certificados digitales, todos ellos necesarios para gestionar y distribuir las claves públicas de manera segura.",
+      },
+      {
+        question:
+          "En una infraestructura de clave pública (PKI) ¿Quién garantiza que la clave publica enviada por un determinado sujeto se corresponde con dicho sujeto? Seleccione la opción correcta.",
+        options: [
+          "La autoridad de certificación (AC) que actúa como tercera parte de confianza.",
+          "El usuario que envía la clave.",
+          "El destinatario de la clave.",
+          "El servidor de correo.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En una infraestructura de clave pública (PKI), la autoridad de certificación (AC) actúa como tercera parte de confianza para garantizar que la clave pública enviada por un sujeto se corresponde efectivamente con dicho sujeto.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las funciones de una Autoridad de Certificación, entre las siguientes opciones:",
+        options: [
+          "Gestión del Directorio y distribución de las Claves.",
+          "Generación de claves privadas para usuarios.",
+          "Auditoría de sistemas de información.",
+          "Intercambio de claves de cifrado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las funciones de una Autoridad de Certificación es la gestión del Directorio y la distribución de las claves, asegurando que las claves públicas sean válidas y estén correctamente asociadas a sus propietarios.",
+      },
+
+      {
+        question:
+          "Identifica correctamente uno de los campos de un certificado digital, entre las siguientes opciones.",
+        options: [
+          "Nombre común (CN).",
+          "Clave privada del usuario.",
+          "Dirección física del usuario.",
+          "Número de teléfono del usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El nombre común (CN) es uno de los campos de un certificado digital, que identifica al propietario del certificado de manera única.",
+      },
+      {
+        question:
+          "En firma digital, para enviar un mensaje cifrado, el origen cifra el texto en claro con la clave pública del destinatario.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es verdadero que para enviar un mensaje cifrado, el origen cifra el texto en claro con la clave pública del destinatario, asegurando que solo el destinatario pueda descifrarlo con su clave privada.",
+      },
+      {
+        question:
+          "¿Cuáles son las propiedades que debe cumplir una firma digital para considerarse equiparable a la firma manuscrita? Identifica las 3 (tres) opciones correctas.",
+        options: [
+          "Va ligada indisolublemente al mensaje",
+          "Solo puede ser generada por su legítimo titular",
+          "Es públicamente verificable.",
+          "Es fácilmente editable.",
+          "No requiere autenticación.",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "Una firma digital debe estar ligada indisolublemente al mensaje, solo puede ser generada por su legítimo titular y debe ser públicamente verificable para ser equiparable a una firma manuscrita.",
+      },
+      {
+        question:
+          "Identifica de manera correcta, cuales fases intervienen en un proceso de obtención de una Firma Electrónica. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "Cifrado del resumen de clave privada en origen.",
+          "Envío del texto claro con la firma adjunta al destino.",
+          "Generación del Resumen del texto en claro en origen.",
+          "Generación del resumen del mensaje en destino.",
+          "Envío del resumen cifrado únicamente.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases en el proceso de obtención de una firma electrónica incluyen el cifrado del resumen con la clave privada en origen, el envío del texto claro con la firma adjunta al destino, la generación del resumen del texto en claro en origen y la generación del resumen del mensaje en destino.",
+      },
+      {
+        question:
+          "Identifica de manera correcta, cuales fases intervienen en un proceso de autenticación de una firma electrónica. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "El receptor compara el Resumen generado por él, con el Resumen descifrado.",
+          "El receptor descifra el Resumen cifrado asociado al mensaje recibido, utilizando la Clave Pública del origen.",
+          "Si ambos resúmenes coinciden, el origen es auténtico y el mensaje es íntegro.",
+          "El receptor genera un resumen del mensaje recibido.",
+          "El receptor utiliza su clave privada para generar el resumen.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases en el proceso de autenticación de una firma electrónica incluyen que el receptor descifre el resumen cifrado asociado al mensaje con la clave pública del origen, genere un resumen del mensaje recibido, compare ambos resúmenes y determine la autenticidad del origen y la integridad del mensaje.",
+      },
+      {
+        question:
+          "Los estándares de criptografía de clave pública (#PKCS), ¿Qué fin tienen? Identifica la opción correcta.",
+        options: [
+          "Impulsar el desarrollo de la firma electrónica, la criptografía de clave pública y los servicios de certificación electrónicos.",
+          "Establecer métodos para el cifrado de datos de forma simétrica.",
+          "Proveer un marco para la gestión de contraseñas seguras.",
+          "Definir algoritmos de cifrado de clave privada.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los estándares PKCS (Public-Key Cryptography Standards) tienen como fin impulsar el desarrollo de la firma electrónica, la criptografía de clave pública y los servicios de certificación electrónicos.",
+      },
+      {
+        question:
+          "¿Qué involucra un proceso de autenticación? Identifica las dos (2) opciones correctas.",
+        options: [
+          "Verificar la integridad de los mensajes recibidos de un interlocutor.",
+          "Verificar la identidad de un interlocutor.",
+          "Cifrar los mensajes con una clave pública.",
+          "Generar una firma digital para cada mensaje enviado.",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Un proceso de autenticación involucra verificar la integridad de los mensajes recibidos y verificar la identidad de un interlocutor, asegurando que la comunicación es segura y confiable.",
+      },
+      {
+        question:
+          "Dentro de los servicios que brinda Internet, nos encontramos con:",
+        options: [
+          "La web o 'WWW' (World Wide Web).",
+          "El correo físico.",
+          "Los servicios de mensajería tradicional.",
+          "El transporte de bienes y productos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los servicios que brinda Internet es la web o 'WWW' (World Wide Web), que permite el acceso y la navegación de contenido en línea.",
+      },
+      {
+        question:
+          "Internet utiliza en su red de ordenadores y redes un protocolo particular llamado:",
+        options: [
+          "TCP/IP (Transmission Control Protocol / Internet Protocol).",
+          "HTTP (HyperText Transfer Protocol).",
+          "FTP (File Transfer Protocol).",
+          "SMTP (Simple Mail Transfer Protocol).",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Internet utiliza el protocolo TCP/IP (Transmission Control Protocol / Internet Protocol) para la comunicación y transferencia de datos en su red de ordenadores y redes.",
+      },
+      {
+        question:
+          "En razón de la escasez de los números asignados en versión 4 (IPv4), el mismo será reemplazado por otra versión que permitirá mayor conectividad de manera ilimitada, se lo conoce como:",
+        options: [
+          "IPv6, de 128 bits y admite números y letras.",
+          "IPv5, de 64 bits y admite solo números.",
+          "IPv7, de 256 bits y admite números y letras.",
+          "IPv3, de 32 bits y admite solo letras.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "IPv6, de 128 bits, es la versión que reemplazará a IPv4, permitiendo mayor conectividad de manera ilimitada y admitiendo tanto números como letras.",
+      },
+      {
+        question:
+          "Dentro de la estructura TLD, se encuentran dominios que operan bajo algunas de las siguientes direcciones, seleccione 4 de ellas: Seleccione 4 (cuatro) respuesta correcta.",
+        options: [".Edu.", ".Org.", ".Com.", ".Net.", ".Biz.", ".Info."],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Dentro de la estructura de TLD (Top-Level Domains), se encuentran dominios como .Edu, .Org, .Com y .Net, que son utilizados para diferentes propósitos en la red.",
+      },
+      {
+        question:
+          "Dentro de la Seguridad de la Información, se deben preservar tres pilares o características importantes:",
+        options: [
+          "Confidencialidad, Integridad y Disponibilidad.",
+          "Velocidad, Eficiencia y Seguridad.",
+          "Redundancia, Escalabilidad y Compatibilidad.",
+          "Accesibilidad, Transparencia y Flexibilidad.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En la Seguridad de la Información, los tres pilares fundamentales son la Confidencialidad, la Integridad y la Disponibilidad, que aseguran la protección de los datos contra accesos no autorizados, modificaciones indebidas y la disponibilidad de la información cuando se necesita.",
+      },
+      {
+        question:
+          "Identifica correctamente uno de los campos de un certificado digital, entre las siguientes opciones.",
+        options: [
+          "Nombre común (CN).",
+          "Clave privada del usuario.",
+          "Dirección física del usuario.",
+          "Número de teléfono del usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El nombre común (CN) es uno de los campos de un certificado digital, que identifica al propietario del certificado de manera única.",
+      },
+      {
+        question:
+          "En firma digital, para enviar un mensaje cifrado, el origen cifra el texto en claro con la clave pública del destinatario.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es verdadero que para enviar un mensaje cifrado, el origen cifra el texto en claro con la clave pública del destinatario, asegurando que solo el destinatario pueda descifrarlo con su clave privada.",
+      },
+      {
+        question:
+          "¿Cuáles son las propiedades que debe cumplir una firma digital para considerarse equiparable a la firma manuscrita? Identifica las 3 (tres) opciones correctas.",
+        options: [
+          "Va ligada indisolublemente al mensaje",
+          "Solo puede ser generada por su legítimo titular",
+          "Es públicamente verificable.",
+          "Es fácilmente editable.",
+          "No requiere autenticación.",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "Una firma digital debe estar ligada indisolublemente al mensaje, solo puede ser generada por su legítimo titular y debe ser públicamente verificable para ser equiparable a una firma manuscrita.",
+      },
+      {
+        question:
+          "Identifica de manera correcta, cuales fases intervienen en un proceso de obtención de una Firma Electrónica. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "Cifrado del resumen de clave privada en origen.",
+          "Envío del texto claro con la firma adjunta al destino.",
+          "Generación del Resumen del texto en claro en origen.",
+          "Generación del resumen del mensaje en destino.",
+          "Envío del resumen cifrado únicamente.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases en el proceso de obtención de una firma electrónica incluyen el cifrado del resumen con la clave privada en origen, el envío del texto claro con la firma adjunta al destino, la generación del resumen del texto en claro en origen y la generación del resumen del mensaje en destino.",
+      },
+      {
+        question:
+          "Identifica de manera correcta, cuales fases intervienen en un proceso de autenticación de una firma electrónica. Selecciona las 4 (cuatro) opciones correctas.",
+        options: [
+          "El receptor compara el Resumen generado por él, con el Resumen descifrado.",
+          "El receptor descifra el Resumen cifrado asociado al mensaje recibido, utilizando la Clave Pública del origen.",
+          "Si ambos resúmenes coinciden, el origen es auténtico y el mensaje es íntegro.",
+          "El receptor genera un resumen del mensaje recibido.",
+          "El receptor utiliza su clave privada para generar el resumen.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases en el proceso de autenticación de una firma electrónica incluyen que el receptor descifre el resumen cifrado asociado al mensaje con la clave pública del origen, genere un resumen del mensaje recibido, compare ambos resúmenes y determine la autenticidad del origen y la integridad del mensaje.",
+      },
+      {
+        question:
+          "Los estándares de criptografía de clave pública (#PKCS), ¿Qué fin tienen? Identifica la opción correcta.",
+        options: [
+          "Impulsar el desarrollo de la firma electrónica, la criptografía de clave pública y los servicios de certificación electrónicos.",
+          "Establecer métodos para el cifrado de datos de forma simétrica.",
+          "Proveer un marco para la gestión de contraseñas seguras.",
+          "Definir algoritmos de cifrado de clave privada.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los estándares PKCS (Public-Key Cryptography Standards) tienen como fin impulsar el desarrollo de la firma electrónica, la criptografía de clave pública y los servicios de certificación electrónicos.",
+      },
+      {
+        question:
+          "¿Qué involucra un proceso de autenticación? Identifica las dos (2) opciones correctas.",
+        options: [
+          "Verificar la integridad de los mensajes recibidos de un interlocutor.",
+          "Verificar la identidad de un interlocutor.",
+          "Cifrar los mensajes con una clave pública.",
+          "Generar una firma digital para cada mensaje enviado.",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Un proceso de autenticación involucra verificar la integridad de los mensajes recibidos y verificar la identidad de un interlocutor, asegurando que la comunicación es segura y confiable.",
+      },
+      {
+        question:
+          "Dentro de los servicios que brinda Internet, nos encontramos con:",
+        options: [
+          "La web o 'WWW' (World Wide Web).",
+          "El correo físico.",
+          "Los servicios de mensajería tradicional.",
+          "El transporte de bienes y productos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los servicios que brinda Internet es la web o 'WWW' (World Wide Web), que permite el acceso y la navegación de contenido en línea.",
+      },
+      {
+        question:
+          "Internet utiliza en su red de ordenadores y redes un protocolo particular llamado:",
+        options: [
+          "TCP/IP (Transmission Control Protocol / Internet Protocol).",
+          "HTTP (HyperText Transfer Protocol).",
+          "FTP (File Transfer Protocol).",
+          "SMTP (Simple Mail Transfer Protocol).",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Internet utiliza el protocolo TCP/IP (Transmission Control Protocol / Internet Protocol) para la comunicación y transferencia de datos en su red de ordenadores y redes.",
+      },
+      {
+        question:
+          "En razón de la escasez de los números asignados en versión 4 (IPv4), el mismo será reemplazado por otra versión que permitirá mayor conectividad de manera ilimitada, se lo conoce como:",
+        options: [
+          "IPv6, de 128 bits y admite números y letras.",
+          "IPv5, de 64 bits y admite solo números.",
+          "IPv7, de 256 bits y admite números y letras.",
+          "IPv3, de 32 bits y admite solo letras.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "IPv6, de 128 bits, es la versión que reemplazará a IPv4, permitiendo mayor conectividad de manera ilimitada y admitiendo tanto números como letras.",
+      },
+      {
+        question:
+          "Dentro de la estructura TLD, se encuentran dominios que operan bajo algunas de las siguientes direcciones, seleccione 4 de ellas: Seleccione 4 (cuatro) respuesta correcta.",
+        options: [".Edu.", ".Org.", ".Com.", ".Net.", ".Biz.", ".Info."],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Dentro de la estructura de TLD (Top-Level Domains), se encuentran dominios como .Edu, .Org, .Com y .Net, que son utilizados para diferentes propósitos en la red.",
+      },
+      {
+        question:
+          "Dentro de la Seguridad de la Información, se deben preservar tres pilares o características importantes:",
+        options: [
+          "Confidencialidad, Integridad y Disponibilidad.",
+          "Velocidad, Eficiencia y Seguridad.",
+          "Redundancia, Escalabilidad y Compatibilidad.",
+          "Accesibilidad, Transparencia y Flexibilidad.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En la Seguridad de la Información, los tres pilares fundamentales son la Confidencialidad, la Integridad y la Disponibilidad, que aseguran la protección de los datos contra accesos no autorizados, modificaciones indebidas y la disponibilidad de la información cuando se necesita.",
+      },
+      {
+        question:
+          "Los procedimientos de manejo o control de la Información deben confeccionarse en base a ciertos elementos, entre algunos de ellos podemos nombrar 4: Seleccione la respuesta correcta.",
+        options: [
+          "Sistemas informáticos, redes, computación móvil, correo.",
+          "Servidores, dispositivos móviles, aplicaciones, usuarios.",
+          "Bases de datos, sistemas operativos, software de seguridad, empleados.",
+          "Hardware, redes sociales, dispositivos personales, administración.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los procedimientos de manejo o control de la información deben incluir elementos como sistemas informáticos, redes, computación móvil y correo para asegurar una gestión integral y segura.",
+      },
+      {
+        question:
+          "Dentro del Inventario de activos que es necesario para garantizar lo más valioso de la empresa, se debe tener presente los siguientes activos asociados a sistemas de información:",
+        options: [
+          "Recursos de información, recursos de software, activos físicos y servicios.",
+          "Equipos de oficina, personal de TI, aplicaciones móviles y políticas de seguridad.",
+          "Redes, dispositivos de almacenamiento, bases de datos y documentación.",
+          "Hardware, software, procesos de negocio y infraestructura.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Para garantizar lo más valioso de la empresa, el inventario de activos debe incluir recursos de información, recursos de software, activos físicos y servicios asociados a los sistemas de información.",
+      },
+      {
+        question:
+          "Dentro de los recursos de la empresa y que brindan un gran aporte al momento de brindar mayor seguridad en la información, se encuentran los siguientes:",
+        options: [
+          "Información, procesos, sistemas y redes.",
+          "Hardware, software, usuarios y políticas.",
+          "Equipos, datos, redes y usuarios.",
+          "Aplicaciones, dispositivos, procedimientos y empleados.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los recursos de la empresa que brindan mayor seguridad en la información incluyen información, procesos, sistemas y redes, ya que todos estos elementos contribuyen a proteger los datos y la infraestructura de TI.",
+      },
+      {
+        question:
+          "Dentro de los delitos informáticos, se pueden identificar dos tipologías, éstos son:",
+        options: [
+          "Como instrumento y como objeto del delito.",
+          "Delitos personales y corporativos.",
+          "Delitos internos y externos.",
+          "Delitos físicos y digitales.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los delitos informáticos se pueden clasificar en dos tipologías: como instrumento, donde se utiliza la tecnología para cometer el delito, y como objeto, donde el delito se dirige contra sistemas o datos informáticos.",
+      },
+      {
+        question:
+          "Al momento de llegar a la escena del crimen, es importante cumplir con un proceso, si luego debemos realizar un informe forense informático, ello es:",
+        options: [
+          "Reconocimiento de la Evidencia Digital.",
+          "Aseguramiento del lugar.",
+          "Notificación a las autoridades.",
+          "Recopilación de testimonios.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El reconocimiento de la Evidencia Digital es el primer paso crucial en un proceso forense informático, ya que permite identificar y preservar los datos y dispositivos relevantes para la investigación.",
+      },
+      {
+        question:
+          "Dentro de las partes intervinientes en el lugar del hecho, existe una de ellas, la cual tiene las facultades para garantizar el cumplimiento de la ley, identifique la correcta.",
+        options: [
+          "El Fiscal interviniente.",
+          "El oficial de policía.",
+          "El perito forense.",
+          "El abogado defensor.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El Fiscal interviniente tiene las facultades para garantizar el cumplimiento de la ley en el lugar del hecho, asegurando que todas las acciones se realicen conforme a los procedimientos legales.",
+      },
+      {
+        question:
+          "Un sistema de aseguramiento que tiene como fin garantizar la autenticidad de la evidencia, se lo conoce como:",
+        options: [
+          "Cadena de custodia.",
+          "Control de calidad.",
+          "Gestión de incidentes.",
+          "Auditoría de seguridad.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La cadena de custodia es un sistema de aseguramiento que garantiza la autenticidad de la evidencia, documentando cada paso de su manejo y preservación desde la recogida hasta su presentación en el tribunal.",
+      },
+      {
+        question:
+          "¿Cómo se la conoce a la técnica que puede engañar a cualquier usuario llamando por ejemplo por teléfono bajo la identificación de un número 'seguro' de un remitente conocido?",
+        options: ["Spoofing.", "Phishing.", "Sniffing.", "Hacking."],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Spoofing es una técnica utilizada para engañar a los usuarios, haciéndoles creer que están recibiendo comunicación de una fuente segura cuando en realidad es de un remitente malicioso.",
+      },
+      {
+        question:
+          "Otra de las técnicas conocidas es en determinados días especiales solicitar a los usuarios que naveguen por determinados buscadores y que:",
+        options: [
+          "Descarguen e instalen expresiones maliciosas que simulan ser de temas reales.",
+          "Envíen información personal a través de formularios.",
+          "Cambien sus contraseñas regularmente.",
+          "Participen en encuestas online.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una técnica común en días especiales es solicitar a los usuarios que descarguen e instalen software malicioso que simula ser de temas reales, con el objetivo de infectar sus sistemas.",
+      },
+      {
+        question:
+          "Cuando se refiere a herramientas que permite al desarrollador proyectar programas informáticos, utilizando diferentes idiomas artificiales, se lo denomina:",
+        options: [
+          "Software de programación.",
+          "Editor de texto.",
+          "Compilador de código.",
+          "Entorno de desarrollo integrado (IDE).",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El software de programación es la herramienta que permite a los desarrolladores proyectar y crear programas informáticos utilizando diversos lenguajes de programación.",
+      },
+      {
+        question:
+          "¿Cómo se denominan los documentos digitales que dan fe en la vinculación entre una clave Pública y una persona u organismo?",
+        options: [
+          "Certificados Digitales.",
+          "Firmas Digitales.",
+          "Tokens de Seguridad.",
+          "Claves Privadas.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los certificados digitales son documentos que autentican la vinculación entre una clave pública y una persona u organismo, asegurando la identidad del propietario de la clave.",
+      },
+      {
+        question:
+          "Dentro de los elementos que componen a la firma digital, encontramos a 2 muy importantes para lograr que un mensaje encriptado viaje seguro a destino:",
+        options: [
+          "Clave secreta y clave Pública.",
+          "Hash y resumen.",
+          "Certificado y token.",
+          "Contraseña y pin.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los elementos clave para que una firma digital asegure que un mensaje encriptado viaje seguro a destino son la clave secreta y la clave pública.",
+      },
+      {
+        question:
+          "Dentro de lo que se conoce como bienes inmateriales o intangibles, podemos ubicar a: Seleccione las 2 (dos) respuestas correctas.",
+        options: [
+          "El Software.",
+          "Páginas Web.",
+          "Hardware.",
+          "Equipos de redes.",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Los bienes inmateriales o intangibles incluyen elementos como el software y las páginas web, que no tienen una presencia física pero son cruciales para el funcionamiento y el valor de una empresa.",
+      },
+      {
+        question:
+          "¿Qué se entiende como un idioma artificial que expresa instrucciones y que sean llevadas a cabo por ordenadores?",
+        options: [
+          "Lenguaje de programación.",
+          "Lenguaje natural.",
+          "Protocolo de comunicación.",
+          "Algoritmo.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un lenguaje de programación es un idioma artificial diseñado para expresar instrucciones que un ordenador puede llevar a cabo para realizar tareas específicas.",
+      },
+      {
+        question:
+          "Se dice que la Propiedad Intelectual abarca solo cuestiones atinentes al derecho de autor.",
+        options: ["Falso", "Verdadero"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es falso que la Propiedad Intelectual abarque solo el derecho de autor. La Propiedad Intelectual también incluye patentes, marcas registradas, diseños industriales y secretos comerciales.",
+      },
+      {
+        question:
+          "A la hora de analizar y gestionar los Riesgos ¿cuáles recursos deberían tenerse en cuenta? Selecciona la opción correcta:",
+        options: [
+          "Recursos Hardware.",
+          "Recursos Humanos.",
+          "Recursos Financieros.",
+          "Recursos Naturales.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Al analizar y gestionar los riesgos, es crucial considerar los recursos hardware ya que estos son fundamentales para la operación y seguridad de los sistemas informáticos.",
+      },
+      {
+        question: "¿Cómo se define a una Política de Seguridad?",
+        options: [
+          "Como una declaración de intenciones de alto nivel.",
+          "Como un conjunto de normas y procedimientos detallados.",
+          "Como un manual de operación diaria.",
+          "Como un documento técnico especializado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una política de seguridad se define como una declaración de intenciones de alto nivel que establece el marco general y las directrices para asegurar los sistemas y la información.",
+      },
+      {
+        question:
+          "¿Cómo se denominan los documentos digitales que dan fe en la vinculación entre clave pública y una persona u organismo?",
+        options: [
+          "Certificados digitales.",
+          "Firmas digitales.",
+          "Tokens de seguridad.",
+          "Claves privadas.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los certificados digitales son documentos que autentican la vinculación entre una clave pública y una persona u organismo, asegurando la identidad del propietario de la clave.",
+      },
+      {
+        question: "¿Cuál es el objetivo de una medida de seguridad activa?",
+        options: [
+          "Anular o reducir el riesgo de una amenaza.",
+          "Registrar los eventos de seguridad.",
+          "Recuperar datos perdidos.",
+          "Monitorear la red continuamente.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El objetivo de una medida de seguridad activa es anular o reducir el riesgo de una amenaza, tomando acciones preventivas para evitar incidentes de seguridad.",
+      },
+      {
+        question: "¿Cuál es el objetivo de una Medida de Seguridad Pasiva?",
+        options: [
+          "Reducir el impacto cuando se produzca un incidente de seguridad.",
+          "Prevenir accesos no autorizados.",
+          "Actualizar el software regularmente.",
+          "Monitorear la red en tiempo real.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El objetivo de una medida de seguridad pasiva es reducir el impacto cuando se produce un incidente de seguridad, permitiendo la recuperación y continuidad de las operaciones.",
+      },
+      {
+        question:
+          "¿Cuál es el principal problema que presenta la criptografía simétrica?",
+        options: [
+          "El intercambio de la clave de cifrado a través de un canal seguro.",
+          "La velocidad de los algoritmos.",
+          "La longitud de las claves.",
+          "La complejidad de la implementación.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El principal problema de la criptografía simétrica es el intercambio seguro de la clave de cifrado, ya que ambas partes deben conocer y mantener en secreto la misma clave.",
+      },
+      {
+        question:
+          "Cuando se refiere a herramientas que permite al desarrollador proyectar programas informáticos, utilizando diferentes idiomas artificiales, se lo denomina:",
+        options: [
+          "Software de programación.",
+          "Editor de texto.",
+          "Compilador de código.",
+          "Entorno de desarrollo integrado (IDE).",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El software de programación es la herramienta que permite a los desarrolladores proyectar y crear programas informáticos utilizando diversos lenguajes de programación.",
+      },
+      {
+        question:
+          "¿De qué depende la implementación de control de acceso en un sistema informático?",
+        options: [
+          "De la gestión de cuentas de usuarios y de la gestión de permisos y privilegios.",
+          "De la calidad del hardware y software.",
+          "De la velocidad de la red.",
+          "De la ubicación física de los servidores.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La implementación de control de acceso en un sistema informático depende de la gestión de cuentas de usuarios y de la gestión de permisos y privilegios, asegurando que solo los usuarios autorizados tengan acceso a los recursos adecuados.",
+      },
+      {
+        question:
+          "Dentro de la Seguridad Informática, se deben preservar tres pilares o características importantes",
+        options: [
+          "Confidencialidad, integridad, Disponibilidad.",
+          "Velocidad, Eficiencia, Seguridad.",
+          "Redundancia, Escalabilidad, Compatibilidad.",
+          "Accesibilidad, Transparencia, Flexibilidad.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En la Seguridad Informática, los tres pilares fundamentales son la Confidencialidad, la Integridad y la Disponibilidad, que aseguran la protección de los datos contra accesos no autorizados, modificaciones indebidas y la disponibilidad de la información cuando se necesita.",
+      },
+      {
+        question:
+          "Dentro de la estructura TLD, se encuentran dominios que operan bajo algunas de las siguientes direcciones, seleccione 4 de ellas: Seleccione las 4 respuestas correctas.",
+        options: [".Edu", ".Org", ".Com", ".Net", ".Biz", ".Info"],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Dentro de la estructura de TLD (Top-Level Domains), se encuentran dominios como .Edu, .Org, .Com y .Net, que son utilizados para diferentes propósitos en la red.",
+      },
+      {
+        question:
+          "Dentro de las partes intervinientes en el lugar del hecho, existe una de ellas, la cual tiene las facultades para garantizar el cumplimiento de la ley, identifique la correcta.",
+        options: [
+          "El fiscal interviniente.",
+          "El oficial de policía.",
+          "El perito forense.",
+          "El abogado defensor.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El fiscal interviniente tiene las facultades para garantizar el cumplimiento de la ley en el lugar del hecho, asegurando que todas las acciones se realicen conforme a los procedimientos legales.",
+      },
+      {
+        question:
+          "Dentro de lo que se conoce como bienes inmateriales o intangibles, podemos ubicar a: Selecciones las 2 respuestas correctas.",
+        options: ["El software", "Páginas web", "Hardware", "Equipos de redes"],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Los bienes inmateriales o intangibles incluyen elementos como el software y las páginas web, que no tienen una presencia física pero son cruciales para el funcionamiento y el valor de una empresa.",
+      },
+      {
+        question:
+          "Dentro de los delitos informáticos, se pueden identificar dos tipologías, estas son:",
+        options: [
+          "Como instrumento y como objeto del delito.",
+          "Delitos personales y corporativos.",
+          "Delitos internos y externos.",
+          "Delitos físicos y digitales.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los delitos informáticos se pueden clasificar en dos tipologías: como instrumento, donde se utiliza la tecnología para cometer el delito, y como objeto, donde el delito se dirige contra sistemas o datos informáticos.",
+      },
+      {
+        question:
+          "Dentro de los elementos que componen a la firma digital, encontramos 2 muy importantes para lograr que un mensaje encriptado viaje seguro a destino:",
+        options: [
+          "Clave secreta y clave pública.",
+          "Hash y resumen.",
+          "Certificado y token.",
+          "Contraseña y pin.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los elementos clave para que una firma digital asegure que un mensaje encriptado viaje seguro a destino son la clave secreta y la clave pública.",
+      },
+      {
+        question:
+          "Dentro de los recursos de la empresa y que brindan un gran aporte al momento de brindar mayor seguridad en la información, se encuentran los siguientes:",
+        options: [
+          "Información, procesos, sistemas y redes.",
+          "Hardware, software, usuarios y políticas.",
+          "Equipos, datos, redes y usuarios.",
+          "Aplicaciones, dispositivos, procedimientos y empleados.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los recursos de la empresa que brindan mayor seguridad en la información incluyen información, procesos, sistemas y redes, ya que todos estos elementos contribuyen a proteger los datos y la infraestructura de TI.",
+      },
+      {
+        question:
+          "Dentro de los servicios que brinda Internet, nos encontramos con:",
+        options: [
+          "La web o WWW (World Wide Web).",
+          "El correo físico.",
+          "Los servicios de mensajería tradicional.",
+          "El transporte de bienes y productos.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los servicios que brinda Internet es la web o 'WWW' (World Wide Web), que permite el acceso y la navegación de contenido en línea.",
+      },
+      {
+        question:
+          "Dentro del inventario de activos que es necesario para garantizar lo más valioso de la empresa se debe tener presente los siguientes activos asociados a sistemas de información:",
+        options: [
+          "Recursos no declarados, recursos de información, bases de información, servicios.",
+          "Equipos de oficina, personal de TI, aplicaciones móviles y políticas de seguridad.",
+          "Redes, dispositivos de almacenamiento, bases de datos y documentación.",
+          "Hardware, software, procesos de negocio e infraestructura.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Para garantizar lo más valioso de la empresa, el inventario de activos debe incluir recursos no declarados, recursos de información, bases de información y servicios asociados a los sistemas de información.",
+      },
+      {
+        question:
+          "El principal problema de los criptosistemas asimétricos es que los algoritmos son lentos y consumen muchos recursos computacionales.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es verdadero que el principal problema de los criptosistemas asimétricos es que los algoritmos son lentos y consumen muchos recursos computacionales, lo que puede limitar su uso en ciertas aplicaciones.",
+      },
+      {
+        question:
+          "En Criptografía Simétrica, las Claves Públicas y Privadas de cada usuario están relacionadas matemáticamente entre sí.",
+        options: ["Verdadero", "Falso"],
+        answer: [1],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, solo se utiliza una clave para el cifrado y descifrado, por lo que no hay claves públicas y privadas relacionadas matemáticamente.",
+      },
+      {
+        question:
+          "En Criptografía Asimétrica, dado dos Usuarios A y B, si B desea enviar datos cifrados a A ¿cómo se debe proceder? Selecciona la afirmación correcta:",
+        options: [
+          "B debe cifrar los datos con la Clave Pública de A.",
+          "B debe cifrar los datos con su propia Clave Privada.",
+          "B debe usar una clave compartida entre A y B.",
+          "B debe cifrar los datos con la Clave Privada de A.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía asimétrica, B debe cifrar los datos con la Clave Pública de A para que solo A pueda descifrarlos con su Clave Privada.",
+      },
+      {
+        question:
+          "En criptografía asimétrica, dado dos usuarios A y B, si A desea enviar datos cifrados a B. ¿Cómo se debe proceder? Seleccione las dos respuestas correctas:",
+        options: [
+          "A cifra con la clave pública de B.",
+          "A cifra con su clave privada.",
+          "B descifra con su clave pública.",
+          "B descifra con su clave privada.",
+        ],
+        answer: [0, 3],
+        multi: true,
+        explanation:
+          "En criptografía asimétrica, A debe cifrar los datos con la clave pública de B, y B debe descifrar los datos con su clave privada.",
+      },
+      {
+        question:
+          "En el contexto de la gestión de riesgos. ¿Cómo es la secuencia de procesos en la apreciación de riesgos?",
+        options: [
+          "Identificar, analizar, evaluar.",
+          "Evaluar, analizar, identificar.",
+          "Analizar, identificar, evaluar.",
+          "Evaluar, identificar, analizar.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La secuencia correcta en la apreciación de riesgos es identificar, analizar y evaluar, para gestionar adecuadamente los riesgos en una organización.",
+      },
+      {
+        question: "En el contexto del análisis de riesgos. ¿Qué es un riesgo?",
+        options: [
+          "La probabilidad de que una amenaza se materialice sobre una vulnerabilidad.",
+          "La certeza de que un incidente de seguridad ocurrirá.",
+          "La cantidad de dinero necesario para mitigar una amenaza.",
+          "El tiempo que se necesita para recuperarse de un incidente.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un riesgo es la probabilidad de que una amenaza se materialice sobre una vulnerabilidad, afectando potencialmente la seguridad de la información.",
+      },
+      {
+        question:
+          "En el contexto del análisis de riesgos. ¿Qué mide el impacto?",
+        options: [
+          "El daño que podría causar a la organización un incidente de seguridad.",
+          "La probabilidad de ocurrencia de un incidente de seguridad.",
+          "El costo de implementar medidas de seguridad.",
+          "El número de incidentes de seguridad ocurridos en el pasado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El impacto mide el daño que podría causar a la organización un incidente de seguridad, permitiendo evaluar la gravedad de las amenazas y vulnerabilidades.",
+      },
+      {
+        question:
+          "En el contexto del Análisis de Riesgos, ¿qué es una Vulnerabilidad?",
+        options: [
+          "Cualquier debilidad en el sistema informático que puede ser explotada por una Amenaza.",
+          "Una medida de protección insuficiente.",
+          "Un tipo de malware específico.",
+          "Una política de seguridad mal implementada.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una vulnerabilidad es cualquier debilidad en el sistema informático que puede ser explotada por una amenaza, poniendo en riesgo la seguridad de la información.",
+      },
+      {
+        question:
+          "En razón de la escasez de los números asignados en versión 4 (IPv4), el mismo será reemplazado por otra versión que permitirá mayor conectividad de manera ilimitada, se lo conoce como:",
+        options: [
+          "IPv6, de 128 bits y admite números y letras.",
+          "IPv5, de 64 bits y admite solo números.",
+          "IPv7, de 256 bits y admite números y letras.",
+          "IPv3, de 32 bits y admite solo letras.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "IPv6, de 128 bits, es la versión que reemplazará a IPv4, permitiendo mayor conectividad de manera ilimitada y admitiendo tanto números como letras.",
+      },
+      {
+        question:
+          "En relación a la Criptografía Simétrica, identifica cuál afirmación es correcta:",
+        options: [
+          "Se emplea la misma clave para cifrar y descifrar.",
+          "Se utilizan dos claves diferentes para cifrar y descifrar.",
+          "No depende de la confidencialidad de la clave.",
+          "Utiliza una clave pública para el cifrado y una privada para el descifrado.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, se utiliza la misma clave para cifrar y descifrar, lo que es una de sus principales características.",
+      },
+      {
+        question:
+          "En relación a la Criptografía Simétrica, identifica cuál afirmación es correcta:",
+        options: [
+          "Toda la seguridad del Sistema depende de la confidencialidad de la Clave.",
+          "Se utiliza una clave pública para el cifrado y una privada para el descifrado.",
+          "Las claves utilizadas son mucho más largas que en la criptografía asimétrica.",
+          "El algoritmo es público y no necesita mantener ninguna parte en secreto.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En criptografía simétrica, la seguridad del sistema depende completamente de la confidencialidad de la clave utilizada.",
+      },
+      {
+        question:
+          "En relación a la criptografía Asimétrica, identifica cuál afirmación es correcta:",
+        options: [
+          "Utiliza dos claves criptográficas, de las cuales una es privada y otra es pública.",
+          "Utiliza una única clave para cifrar y descifrar.",
+          "No requiere intercambio de claves entre las partes.",
+          "Es más rápida que la criptografía simétrica.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La criptografía asimétrica utiliza dos claves criptográficas: una clave privada que se mantiene en secreto y una clave pública que se puede compartir libremente.",
+      },
+      {
+        question:
+          "En relación a los procedimientos de seguridad, seleccione la opción correcta:",
+        options: [
+          "Se descomponen en tareas y operaciones concretas.",
+          "Son abstractos y generales.",
+          "No requieren documentación.",
+          "Son específicos para cada usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los procedimientos de seguridad se descomponen en tareas y operaciones concretas para asegurar que cada paso sea claro y ejecutable.",
+      },
+      {
+        question:
+          "En relación al Control de Accesos, en los tipos de Acceso Discrecional (DAC), ¿cómo operan? Selecciona la opción correcta:",
+        options: [
+          "Los Controles de Acceso los controla y configura el propietario de cada objeto.",
+          "Los Controles de Acceso son gestionados por el administrador del sistema.",
+          "Los Controles de Acceso son automáticos y no requieren intervención humana.",
+          "Los Controles de Acceso son iguales para todos los usuarios.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "En los sistemas de Acceso Discrecional (DAC), los controles de acceso los controla y configura el propietario de cada objeto, permitiendo flexibilidad en la gestión de permisos.",
+      },
+      {
+        question:
+          "En relación a las herramientas de detección y protección, un Sistema de Detección de Intrusos (IDS) cuenta con una versión basada en Host.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Es verdadero que un Sistema de Detección de Intrusos (IDS) cuenta con una versión basada en Host, que monitoriza y analiza actividades dentro de un solo equipo o dispositivo.",
+      },
+      {
+        question:
+          "En relación al Control de Accesos, en un proceso de Identificación ¿cuáles elementos pueden utilizarse para identificar a un Usuario? Selecciona las 4 (cuatro) opciones correctas:",
+        options: [
+          "Algo que el Usuario sabe hacer.",
+          "Algo que el Usuario conoce.",
+          "Algo que el Usuario es.",
+          "Algo que el Usuario posee.",
+          "Algo que el Usuario desea.",
+          "Algo que el Usuario prefiere.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "En un proceso de identificación, se pueden utilizar varios elementos para identificar a un usuario: algo que el usuario sabe hacer (habilidades), algo que el usuario conoce (contraseñas), algo que el usuario es (biometría) y algo que el usuario posee (tarjetas de acceso).",
+      },
+      {
+        question:
+          "En relación a las herramientas de detección y protección, selecciona la opción correcta acerca de los Sistemas de Detección de Intrusos (IDS):",
+        options: [
+          "Cuentan con un motor de análisis encargado de detectar evidencia de intentos de intrusión.",
+          "Son completamente pasivos y no realizan ninguna acción.",
+          "No necesitan actualizaciones regulares.",
+          "Solo funcionan en redes pequeñas.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los Sistemas de Detección de Intrusos (IDS) cuentan con un motor de análisis encargado de detectar evidencia de intentos de intrusión, lo que les permite identificar y alertar sobre posibles ataques.",
+      },
+      {
+        question:
+          "En relación a los Procedimientos de Seguridad, selecciona la opción correcta:",
+        options: [
+          "Se descomponen en tareas y operaciones concretas.",
+          "Son abstractos y generales.",
+          "No requieren documentación.",
+          "Son específicos para cada usuario.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Los procedimientos de seguridad se descomponen en tareas y operaciones concretas para asegurar que cada paso sea claro y ejecutable.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las ventajas de la Criptografía Simétrica.",
+        options: [
+          "Son algoritmos muy rápidos y eficientes desde el punto de vista computacional.",
+          "No requieren intercambio previo de claves.",
+          "Son más seguros que los algoritmos de clave pública.",
+          "Permiten una encriptación sin claves.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una de las ventajas de la criptografía simétrica es que sus algoritmos son muy rápidos y eficientes desde el punto de vista computacional.",
+      },
+      {
+        question:
+          "Identifica correctamente una de las técnicas de criptoanálisis entre las siguientes opciones:",
+        options: [
+          "Criptoanálisis Lineal",
+          "Criptoanálisis Diferencial",
+          "Criptoanálisis Algebraico",
+          "Criptoanálisis Estadístico",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "El criptoanálisis lineal es una técnica utilizada para analizar y vulnerar sistemas criptográficos.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista:",
+        options: [
+          "Referencia temporal (Certificación de fechas)",
+          "Encriptación de datos",
+          "Protección contra malware",
+          "Análisis de vulnerabilidades",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La referencia temporal o certificación de fechas es un servicio de seguridad de la información que asegura la integridad y autenticidad del momento en que un documento o dato fue creado.",
+      },
+      {
+        question:
+          "Identifica cuál es un Servicio de Seguridad de la Información válido en la siguiente lista:",
+        options: [
+          "Reclamación de Origen",
+          "Auditoría de Seguridad",
+          "Gestión de Contraseñas",
+          "Monitoreo de Red",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La reclamación de origen es un servicio de seguridad de la información que verifica la autenticidad del remitente de la información.",
+      },
+      {
+        question:
+          "Identifica cuál es un servicio de seguridad de la información válido en la siguiente lista:",
+        options: ["Disponibilidad", "Backup", "Firewall", "Autenticación"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La disponibilidad es un servicio de seguridad de la información que garantiza que los datos y sistemas estén accesibles cuando se necesiten.",
+      },
+      {
+        question:
+          "Identifica de manera correcta cuál de los siguientes es un tipo de ataque contra un sistema criptográfico:",
+        options: [
+          "Ataque basado solo en texto cifrado",
+          "Ataque DDoS",
+          "Phishing",
+          "Malware",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Un ataque basado solo en texto cifrado es un tipo de ataque contra un sistema criptográfico donde el atacante intenta descifrar el texto sin conocer el texto original ni la clave.",
+      },
+      {
+        question:
+          "Identifica de manera correcta, cuáles fases intervienen en un proceso de autenticación de una Firma Electrónica. Selecciona las 4 (cuatro) opciones correctas:",
+        options: [
+          "El Receptor genera un Resumen del mensaje recibido.",
+          "El Receptor compara el Resumen generado por él, con el Resumen descifrado.",
+          "Si ambos Resúmenes coinciden, el origen es auténtico y el mensaje es íntegro.",
+          "El Receptor descifra el Resumen cifrado asociado al mensaje recibido, utilizando la Clave Pública del origen.",
+          "El Receptor envía el Resumen al emisor para su verificación.",
+          "El Receptor cifra nuevamente el mensaje recibido.",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Las fases en el proceso de autenticación de una firma electrónica incluyen que el receptor descifre el resumen cifrado asociado al mensaje con la clave pública del origen, genere un resumen del mensaje recibido, compare ambos resúmenes y determine la autenticidad del origen y la integridad del mensaje.",
+      },
+      {
+        question:
+          "Internet utiliza en su red de ordenadores y redes un protocolo particular llamado:",
+        options: ["TCP/IP", "HTTP", "FTP", "SMTP"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Internet utiliza el protocolo TCP/IP (Transmission Control Protocol / Internet Protocol) para la comunicación y transferencia de datos en su red de ordenadores y redes.",
+      },
+      {
+        question: "La Seguridad Informática debe ser entendida como:",
+        options: [
+          "Un proceso.",
+          "Un producto.",
+          "Un servicio.",
+          "Un software.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La seguridad informática debe ser entendida como un proceso continuo de identificación, análisis y mitigación de riesgos para proteger la información y los sistemas.",
+      },
+      {
+        question:
+          "La seguridad informática se plantea una serie de objetivos. Identifica correctamente a uno de la siguiente lista:",
+        options: [
+          "Minimizar y gestionar los riesgos y detectar los posibles problemas y amenazas a la seguridad.",
+          "Aumentar la velocidad de la red.",
+          "Reducir el costo de hardware.",
+          "Incrementar el número de usuarios.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Uno de los objetivos de la seguridad informática es minimizar y gestionar los riesgos y detectar los posibles problemas y amenazas a la seguridad, asegurando así la protección de los sistemas y datos.",
+      },
+      {
+        question: "¿Qué es la Fiabilidad de un Sistema?",
+        options: [
+          "La probabilidad de que un Sistema se comporte tal y como se espera de él.",
+          "La velocidad a la que un sistema procesa los datos.",
+          "La capacidad de un sistema para integrarse con otros sistemas.",
+          "El costo de mantenimiento de un sistema.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "La fiabilidad de un sistema es la probabilidad de que el sistema se comporte tal y como se espera de él, sin fallos, durante un periodo de tiempo determinado.",
+      },
+      {
+        question:
+          "¿Qué involucra un proceso de Autenticación? Identifica las dos (2) opciones correctas:",
+        options: [
+          "Verificar la identidad de un interlocutor.",
+          "Verificar la integridad de los mensajes recibidos de un interlocutor.",
+          "Cifrar los mensajes con una clave pública.",
+          "Generar una firma digital para cada mensaje enviado.",
+        ],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "Un proceso de autenticación involucra verificar la identidad de un interlocutor y verificar la integridad de los mensajes recibidos, asegurando que la comunicación es segura y confiable.",
+      },
+      {
+        question:
+          "¿Qué proporciona una Infraestructura de Clave Pública (PKI)?",
+        options: [
+          "Proporciona un mecanismo para la generación y distribución de claves y gestión de Certificados Digitales.",
+          "Proporciona únicamente servicios de cifrado de datos.",
+          "Ofrece un repositorio centralizado de claves privadas.",
+          "Gestiona contraseñas para usuarios.",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Una Infraestructura de Clave Pública (PKI) proporciona un mecanismo para la generación y distribución de claves y la gestión de certificados digitales, asegurando la seguridad de las comunicaciones.",
+      },
+    ],
+  },
 ];
