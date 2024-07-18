@@ -1,5 +1,1018 @@
 const quizzes = [
   {
+    name: "Redes",
+    questions: [
+      {
+        question: "La sigla 2P2 significa:",
+        options: [
+          "Peer to Peer",
+          "Protocol to Protocol",
+          "Point to Point",
+          "Process to Process",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "2P2 stands for Peer to Peer, a decentralized communication model.",
+      },
+      {
+        question: "La sigla P2P significa:",
+        options: [
+          "Peer to Peer",
+          "Protocol to Protocol",
+          "Point to Point",
+          "Process to Process",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "P2P stands for Peer to Peer, a decentralized communication model.",
+      },
+      {
+        question:
+          "LAN es una sigla en inglés que en castellano se traduce como.",
+        options: [
+          "Red de Área Local",
+          "Red de Área Limitada",
+          "Red de Acceso Local",
+          "Red de Administración Local",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "LAN stands for Local Area Network, translated as Red de Área Local in Spanish.",
+      },
+      {
+        question:
+          "VPN es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Red Privada Virtual",
+          "Red Pública Virtual",
+          "Red Personal Virtual",
+          "Red Permanente Virtual",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "VPN stands for Virtual Private Network, translated as Red Privada Virtual in Spanish.",
+      },
+      {
+        question:
+          "ATM es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Modo de Transferencia Asíncrono",
+          "Modo de Transferencia Alternativa",
+          "Método de Transferencia Asíncrono",
+          "Método de Transmisión Asíncrono",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "ATM stands for Asynchronous Transfer Mode, translated as Modo de Transferencia Asíncrono in Spanish.",
+      },
+      {
+        question:
+          "PAN es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Red de Área Personal",
+          "Red de Área Privada",
+          "Red de Área Pública",
+          "Red de Área Portátil",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "PAN stands for Personal Area Network, translated as Red de Área Personal in Spanish.",
+      },
+      {
+        question:
+          "WAN es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Red de Área Amplia",
+          "Red de Área Ancha",
+          "Red de Área Accesible",
+          "Red de Área Automática",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "WAN stands for Wide Area Network, translated as Red de Área Amplia in Spanish.",
+      },
+      {
+        question:
+          "MAN es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Red de Área Metropolitana",
+          "Red de Área Municipal",
+          "Red de Área Mediática",
+          "Red de Área Mixta",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "MAN stands for Metropolitan Area Network, translated as Red de Área Metropolitana in Spanish.",
+      },
+      {
+        question:
+          "¿Cómo se llama la red que para interconectar dos estaciones se establece un camino dedicado a través de los nodos de la red?",
+        options: [
+          "Red de Conmutación de Circuitos",
+          "Red de Conmutación de Paquetes",
+          "Red de Conmutación de Datos",
+          "Red de Conmutación Digital",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "This type of network is called a Circuit-Switched Network.",
+      },
+      {
+        question:
+          "¿Cómo se llama la red en la que los datos se envían en secuencias de pequeñas unidades?",
+        options: [
+          "Red de Conmutación de Paquetes",
+          "Red de Conmutación de Circuitos",
+          "Red de Conmutación de Datos",
+          "Red de Conmutación de Mensajes",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "This type of network is called a Packet-Switched Network.",
+      },
+      {
+        question:
+          "El CMTS (Sistema de Terminación del Módem de Cable) utiliza la red del sistema:",
+        options: [
+          "De TV por cable",
+          "De telefonía fija",
+          "De satélite",
+          "De fibra óptica",
+        ],
+        answer: [0],
+        multi: false,
+        explanation: "CMTS uses the Cable TV system network.",
+      },
+      {
+        question:
+          "Una de las formas más populares para brindar acceso a Internet desde teléfonos móviles es el sistema:",
+        options: ["GSM", "CDMA", "LTE", "UMTS"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "GSM is one of the most popular systems for providing internet access from mobile phones.",
+      },
+      {
+        question: "La tecnología RFID es una tecnología:",
+        options: ["Inalámbrica", "Alámbrica", "Óptica", "Magnética"],
+        answer: [0],
+        multi: false,
+        explanation: "RFID is a wireless technology.",
+      },
+      {
+        question:
+          "El acceso a Internet con una velocidad mucho mayor que la de marcación (telefónica) se le llama:",
+        options: ["Banda ancha", "Dial-up", "ISDN", "DSL"],
+        answer: [0],
+        multi: false,
+        explanation: "High-speed internet access is referred to as broadband.",
+      },
+      {
+        question: "¿En qué década aparece la WWW (World Wide Web)?",
+        options: ["1.990", "1.980", "2.000", "1.970"],
+        answer: [0],
+        multi: false,
+        explanation: "The World Wide Web appeared in the 1990s.",
+      },
+      {
+        question:
+          "Respecto del modelo TCP/IP, para la capa de transporte se definieron dos protocolos de transporte de extremo a extremo, estos son:",
+        options: ["TCP y UDP", "TCP y IP", "UDP y ICMP", "IP y ICMP"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The transport layer of the TCP/IP model defines two end-to-end transport protocols: TCP and UDP.",
+      },
+      {
+        question:
+          "Respecto del modelo TCP/IP, la principal tarea la capa de interred es:",
+        options: [
+          "Entregar los paquetes IP a donde se supone que deben ir",
+          "Establecer la conexión entre los dispositivos",
+          "Gestionar la dirección IP",
+          "Controlar el flujo de datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The main task of the internet layer in the TCP/IP model is to deliver IP packets to their intended destinations.",
+      },
+      {
+        question:
+          "Respecto del modelo OSI, la capa de sesión permite a los usuarios en distintas máquinas establecer:",
+        options: [
+          "Sesiones entre ellos",
+          "Conexiones directas",
+          "Intercambios de datos",
+          "Protocolo de comunicaciones",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The session layer in the OSI model allows users on different machines to establish sessions between them.",
+      },
+      {
+        question:
+          "Un servicio es un conjunto de primitivas (operaciones) que una capa proporciona a la capa que está encima de ella. El servicio define qué operaciones puede realizar la capa en beneficio de sus usuarios, pero:",
+        options: [
+          "No dice nada sobre cómo se implementan estás operaciones",
+          "No proporciona seguridad",
+          "No asegura la entrega de datos",
+          "No mantiene la conexión",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "A service defines the operations a layer can perform for its users, but it does not specify how these operations are implemented.",
+      },
+      {
+        question:
+          "Respecto del modelo OSI, a diferencia de las capas inferiores, que se enfocan principalmente en mover los bits de un lado a otro, la capa de presentación se enfoca en:",
+        options: [
+          "La sintaxis y la semántica",
+          "La transmisión de datos",
+          "El control de errores",
+          "El establecimiento de conexiones",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The presentation layer in the OSI model focuses on the syntax and semantics, unlike the lower layers that mainly move bits from one side to another.",
+      },
+      {
+        question:
+          "En el modelo TCP/IP, el protocolo FTP (File Transfer Protocol) pertenece a la capa:",
+        options: [
+          "De aplicación",
+          "De transporte",
+          "De red",
+          "De enlace de datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In the TCP/IP model, the FTP protocol belongs to the application layer.",
+      },
+      {
+        question:
+          "Las capas pueden ofrecer dos tipos distintos de servicio a las capas superiores, estos son:",
+        options: [
+          "Orientado a conexión y sin conexión",
+          "Con control de flujo y sin control de flujo",
+          "Con enrutamiento y sin enrutamiento",
+          "Con establecimiento de sesión y sin establecimiento de sesión",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Layers can offer two different types of service to upper layers: connection-oriented and connectionless.",
+      },
+      {
+        question:
+          "Un protocolo es un conjunto de reglas que rigen el formato y el significado de los paquetes o mensajes que intercambian las entidades:",
+        options: [
+          "Iguales en una capa",
+          "Diferentes en una capa",
+          "De diferentes redes",
+          "De diferentes dispositivos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "A protocol is a set of rules governing the format and meaning of packets or messages exchanged by entities at the same layer.",
+      },
+      {
+        question: "En el modelo TCP/IP las capas de sesión y presentación:",
+        options: [
+          "No están presentes",
+          "Están combinadas",
+          "Están separadas",
+          "Son opcionales",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In the TCP/IP model, the session and presentation layers are not present.",
+      },
+      {
+        question:
+          "Para reducir la complejidad de su diseño, la mayoría de las redes se organizan como una pila de capas o niveles, cada una construida a partir de la que está abajo. ¿Cuál es el propósito de cada capa?",
+        options: [
+          "Ofrecer ciertos servicios a las capas superiores",
+          "Controlar el flujo de datos",
+          "Gestionar las direcciones IP",
+          "Asegurar la conexión",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The purpose of each layer is to offer certain services to the layers above it.",
+      },
+      {
+        question: "El modelo OSI se basa en una propuesta desarrollada por:",
+        options: ["ISO", "IEEE", "IETF", "ITU"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The OSI model is based on a proposal developed by the International Organization for Standardization (ISO).",
+      },
+      {
+        question:
+          "Respecto del modelo OSI, en la capa de red una cuestión clave de diseño es:",
+        options: [
+          "Determinar cómo se encaminan los paquetes desde el origen hasta el destino",
+          "Gestionar las direcciones MAC",
+          "Controlar el acceso al medio",
+          "Establecer conexiones seguras",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "A key design issue in the network layer of the OSI model is determining how packets are routed from the source to the destination.",
+      },
+      {
+        question: "Las 4 capas del modelo TCP/IP son:",
+        options: [
+          "Capa de enlace, capa de interred, capa de transporte, capa de aplicación",
+          "Capa física, capa de enlace, capa de red, capa de transporte",
+          "Capa de red, capa de transporte, capa de sesión, capa de aplicación",
+          "Capa de enlace, capa de red, capa de sesión, capa de presentación",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The four layers of the TCP/IP model are: link layer, internet layer, transport layer, and application layer.",
+      },
+      {
+        question:
+          "Uno de los estándares para comunicación infrarroja se denomina:",
+        options: ["IrDA", "Bluetooth", "WiFi", "ZigBee"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "IrDA (Infrared Data Association) is a standard for infrared communication.",
+      },
+      {
+        question:
+          "Respecto de la Ethernet conmutada, los switches sólo envían tramas a los puertos para los cuales están destinadas:",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In switched Ethernet, switches only send frames to the ports for which they are intended.",
+      },
+      {
+        question:
+          "El teléfono móvil en sí es dividido en el teléfono y un chip removible con información del suscriptor y la cuenta, conocido como:",
+        options: [
+          "Tarjeta SIM",
+          "Tarjeta de memoria",
+          "Módulo de seguridad",
+          "Chip de datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The mobile phone is divided into the phone itself and a removable chip containing subscriber and account information, known as a SIM card.",
+      },
+      {
+        question: "El sistema telefónico tradicional está basado en la:",
+        options: [
+          "Conmutación de circuitos",
+          "Conmutación de paquetes",
+          "Conmutación de mensajes",
+          "Conmutación de datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The traditional telephone system is based on circuit switching.",
+      },
+      {
+        question:
+          "La sigla MAC en castellano significa Control de Acceso al Medio:",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation: "MAC stands for Media Access Control in Spanish.",
+      },
+      {
+        question:
+          "La sigla VLAN en castellano significa Red de Área Local Virtual:",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation: "VLAN stands for Virtual Local Area Network in Spanish.",
+      },
+      {
+        question:
+          "En general y en el ámbito de las comunicaciones existen 3 tipos de satélites, estos son: Seleccione las 3 (tres) respuestas correctas.",
+        options: [
+          "Los satélites LEO",
+          "Los satélites MEO",
+          "Los satélites GEO",
+          "Los satélites HEO",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "In communications, there are three types of satellites: Low Earth Orbit (LEO), Medium Earth Orbit (MEO), and Geostationary Orbit (GEO).",
+      },
+      {
+        question: "La aplicación más común del par trenzado es:",
+        options: [
+          "El Sistema Telefónico",
+          "La Red de Computadoras",
+          "La Televisión por Cable",
+          "La Transmisión de Datos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The most common application of twisted pair cable is in the telephone system.",
+      },
+      {
+        question:
+          "Si bien la fibra óptica se utiliza para redes troncales existe una implementación para hogares, esta se llama:",
+        options: ["FTTH", "FTTP", "FTTB", "FTTC"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Fiber to the Home (FTTH) is an implementation of fiber optic cable for homes.",
+      },
+      {
+        question:
+          "Los datos analógicos pueden tomar valores en un intervalo continuo y los datos digitales toman valores discretos:",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Analog data can take on continuous values, while digital data takes on discrete values.",
+      },
+      {
+        question:
+          "Hay dos tipos de cable coaxial que se utilizan ampliamente: El de 50 ohms y el de:",
+        options: ["75 Ohms", "100 Ohms", "25 Ohms", "150 Ohms"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "There are two types of coaxial cable that are widely used: 50 ohms and 75 ohms.",
+      },
+      {
+        question:
+          "En cualquier sistema de comunicaciones se debe aceptar que la señal que se recibe diferirá de la señal transmitida debido a varias adversidades y dificultades sufridas en la transmisión. En las señales analógicas, estas dificultades pueden degradar la calidad de la señal. En las señales digitales, se generarán bits erróneos. Las dificultades más significativas son: Seleccione las 3 (tres) respuestas correctas.",
+        options: [
+          "El ruido",
+          "La distorsión de retardo",
+          "La atenuación y la distorsión de atenuación",
+          "La interferencia",
+        ],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "The most significant difficulties in communication systems are noise, delay distortion, and attenuation distortion.",
+      },
+      {
+        question:
+          "Respecto de la capacidad del canal, hay cuatro conceptos en juego relacionados entre sí, que son: Seleccione las 4 (cuatro) respuestas correctas.",
+        options: [
+          "El ruido",
+          "El ancho de banda",
+          "La velocidad de transmisión de los datos",
+          "La tasa de errores",
+          "La latencia",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "The four interrelated concepts regarding channel capacity are noise, bandwidth, data transmission speed, and error rate.",
+      },
+      {
+        question:
+          "La fórmula del teorema de Nyquist establece que la tasa de datos máxima es igual a:",
+        options: [
+          "2B log2 V bits/seg",
+          "B log2 V bits/seg",
+          "2B log2 (1+S/N) bits/seg",
+          "B log2 (1+S/N) bits/seg",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The Nyquist theorem formula states that the maximum data rate is 2B log2 V bits/second.",
+      },
+      {
+        question:
+          "MPLS es una sigla en inglés que en castellano se traduce como:",
+        options: [
+          "Conmutación Multiprotocolo Mediante Etiquetas",
+          "Protocolo de Transferencia de Múltiples Etiquetas",
+          "Sistema de Conmutación de Múltiples Protocolos",
+          "Conmutación de Etiquetas de Múltiples Protocolos",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "MPLS stands for Multiprotocol Label Switching, translated as Conmutación Multiprotocolo Mediante Etiquetas in Spanish.",
+      },
+      {
+        question:
+          "Respecto de IP v4, en el datagrama, el campo 'Versión' ¿cuántos bits posee?",
+        options: ["4", "8", "16", "32"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In IPv4, the 'Version' field in the datagram is 4 bits long.",
+      },
+      {
+        question:
+          "En relación a las redes de datagramas, si los paquetes tienden a ser bastante cortos, incluir una dirección de destino completa en cada paquete puede representar una cantidad considerable de sobrecarga y, por ende, un desperdicio de:",
+        options: [
+          "Ancho de banda",
+          "Memoria",
+          "Tiempo de procesamiento",
+          "Espacio de almacenamiento",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In datagram networks, if packets are quite short, including a full destination address in each packet can represent a significant amount of overhead and thus a waste of bandwidth.",
+      },
+      {
+        question: "¿Quién administra y asigna el espacio de direcciones?",
+        options: ["ICANN", "IETF", "IEEE", "ISO"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "ICANN (Internet Corporation for Assigned Names and Numbers) administers and assigns the address space.",
+      },
+      {
+        question:
+          "La dirección IP 128.14.3.16 corresponde a una dirección clase:",
+        options: ["B'", "A'", "C'", "D'"],
+        answer: [0],
+        multi: false,
+        explanation: "The IP address 128.14.3.16 belongs to class B.",
+      },
+      {
+        question:
+          "La dirección IP 192.168.0.1 corresponde a una dirección clase:",
+        options: ["C'", "A'", "B'", "D'"],
+        answer: [0],
+        multi: false,
+        explanation: "The IP address 192.168.0.1 belongs to class C.",
+      },
+      {
+        question: "La dirección IP 255.255.255.0 se corresponde con una:",
+        options: [
+          "Máscara de subred",
+          "Dirección de red",
+          "Dirección de broadcast",
+          "Dirección de host",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The IP address 255.255.255.0 corresponds to a subnet mask.",
+      },
+      {
+        question:
+          "En relación a un servicio sin conexión, los paquetes se transmiten por separado en la red y se enrutan de manera independiente. No se necesita una configuración por adelantado. En este contexto, por lo general los paquetes se conocen como:",
+        options: ["Datagramas", "Frames", "Cells", "Segments"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In a connectionless service, packets are usually referred to as datagrams.",
+      },
+      {
+        question:
+          "Seleccione las direcciones IP v4 correctas. Seleccione las 3 (tres) respuestas correctas.",
+        options: ["197.3.23.234", "10.4.6.3", "4.4.4.4", "256.1.1.1"],
+        answer: [0, 1, 2],
+        multi: true,
+        explanation:
+          "The correct IPv4 addresses are 197.3.23.234, 10.4.6.3, and 4.4.4.4.",
+      },
+      {
+        question:
+          "Respecto de IP v4, ¿Cómo se llama el diseño en el que es responsabilidad de cada enrutador tener la información del prefijo correspondiente?",
+        options: ["CIDR", "VLSM", "NAT", "ARP"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "CIDR (Classless Inter-Domain Routing) is the design where each router must have the prefix information.",
+      },
+      {
+        question:
+          "El rango de direcciones IPs privadas para la clase A se encuentra en el rango de:",
+        options: [
+          "10.0.0.0 - 10.255.255.255/8",
+          "172.16.0.0 - 172.31.255.255/12",
+          "192.168.0.0 - 192.168.255.255/16",
+          "169.254.0.0 - 169.254.255.255/16",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The private IP address range for class A is 10.0.0.0 - 10.255.255.255/8.",
+      },
+      {
+        question:
+          "El rango de direcciones IPs privadas para la clase B se encuentra en el rango de:",
+        options: [
+          "172.16.0.0 - 172.31.255.255/12",
+          "10.0.0.0 - 10.255.255.255/8",
+          "192.168.0.0 - 192.168.255.255/16",
+          "169.254.0.0 - 169.254.255.255/16",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The private IP address range for class B is 172.16.0.0 - 172.31.255.255/12.",
+      },
+      {
+        question:
+          "El rango de direcciones IPs privadas para la clase C se encuentra en el rango de:",
+        options: [
+          "192.168.0.0 - 192.168.255.255/16",
+          "10.0.0.0 - 10.255.255.255/8",
+          "172.16.0.0 - 172.31.255.255/12",
+          "169.254.0.0 - 169.254.255.255/16",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The private IP address range for class C is 192.168.0.0 - 192.168.255.255/16.",
+      },
+      {
+        question:
+          "Respecto de los prefijos en direcciones IP v4, cada dirección de 32 bits está compuesta de una porción de red de longitud variable en los bits superiores, y de una porción de host en los:",
+        options: [
+          "Bits inferiores",
+          "Bits superiores",
+          "Bytes superiores",
+          "Bytes inferiores",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Each 32-bit IPv4 address consists of a network portion of variable length in the upper bits and a host portion in the lower bits.",
+      },
+      {
+        question:
+          "En relación a DHCP, en forma muy parecida al ARP, la computadora difunde una solicitud de una dirección IP en su red. Para ello usa un paquete llamado:",
+        options: ["DHCP DISCOVER", "DHCP REQUEST", "DHCP OFFER", "DHCP ACK"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In DHCP, a computer broadcasts a request for an IP address using a packet called DHCP DISCOVER.",
+      },
+      {
+        question:
+          "¿Cuáles de las siguientes son direcciones IP v4 clase C? Seleccione las 2 (dos) respuestas correctas.",
+        options: ["192.168.4.79", "192.168.37.255", "172.16.0.1", "10.0.0.1"],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "The correct IPv4 class C addresses are 192.168.4.79 and 192.168.37.255.",
+      },
+      {
+        question:
+          "Un datagrama IPv4 consiste en dos partes: el cuerpo o carga útil y:",
+        options: [
+          "El encabezado",
+          "La dirección IP",
+          "La secuencia de datos",
+          "El checksum",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "An IPv4 datagram consists of two parts: the payload and the header.",
+      },
+      {
+        question:
+          "Respecto de IP v4, en el datagrama, el campo 'Identificador' ¿Cuántos bits posee?",
+        options: ["16", "8", "32", "64"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In an IPv4 datagram, the 'Identifier' field is 16 bits long.",
+      },
+      {
+        question:
+          "Según la asignación de direccionamiento con clases, ¿Cuántas clases de direcciones IP v4 existen?",
+        options: ["5", "3", "4", "6"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "According to classful addressing, there are 5 classes of IPv4 addresses: A, B, C, D, and E.",
+      },
+      {
+        question:
+          "El estándar IP específica que una implementación que cumpla las especificaciones del protocolo debe también implementar ICMP.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The IP standard specifies that an implementation must also implement ICMP.",
+      },
+      {
+        question:
+          "La idea básica detrás de NAT es que el ISP asigne a cada hogar o negocio:",
+        options: [
+          "Una sola dirección IP",
+          "Un rango de direcciones IP",
+          "Una dirección IP por dispositivo",
+          "Una dirección IP dinámica",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The basic idea behind NAT is that the ISP assigns a single IP address to each home or business.",
+      },
+      {
+        question:
+          "Dentro de una red dividida en subredes, los dispositivos de encaminamiento locales deben encaminar sobre la base de un número de red extendido consistente en la porción de red de la dirección IP y el número de:",
+        options: ["Subred", "Host", "Segmento", "Gateway"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In a network divided into subnets, local routing devices route based on an extended network number consisting of the network portion of the IP address and the subnet number.",
+      },
+      {
+        question:
+          "En un servicio orientado a conexión, hay que establecer una ruta del enrutador de origen al enrutador de destino antes de poder enviar cualquier paquete de datos. Está conexión se conoce como:",
+        options: [
+          "Circuito virtual",
+          "Ruta dinámica",
+          "Conexión directa",
+          "Camino dedicado",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In a connection-oriented service, a route from the source router to the destination router must be established before sending any data packets. This connection is known as a virtual circuit.",
+      },
+      {
+        question:
+          "NAT es una sigla que traducida del inglés significa Traducción de Direcciones de Red.",
+        options: ["Verdadero", "Falso"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "NAT stands for Network Address Translation, translated as Traducción de Direcciones de Red in Spanish.",
+      },
+      {
+        question:
+          "La dirección IP 10.0.0.178 corresponde a una dirección clase:",
+        options: ["A'", "B'", "C'", "D'"],
+        answer: [0],
+        multi: false,
+        explanation: "The IP address 10.0.0.178 belongs to class A.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes son algunas de las extensiones de la cabecera de IP v6? Seleccione las 4 (cuatro) respuestas correctas.",
+        options: [
+          "Versión",
+          "Longitud de la carga útil",
+          "Clase de tráfico",
+          "Etiqueta de flujo",
+          "Protocolo",
+        ],
+        answer: [0, 1, 2, 3],
+        multi: true,
+        explanation:
+          "Some of the extensions of the IPv6 header are Version, Payload Length, Traffic Class, and Flow Label.",
+      },
+      {
+        question:
+          "Respecto del datagrama en IP v6, ¿Cuál es la primera cabecera?",
+        options: [
+          "Cabecera IPv6",
+          "Cabecera de Transporte",
+          "Cabecera de Enlace",
+          "Cabecera de Aplicación",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "In an IPv6 datagram, the first header is the IPv6 header.",
+      },
+      {
+        question:
+          "La dirección IP v6 8000:0000:0000:0000:0123:4567:89AB:CDEF optimizada podría verse como:",
+        options: [
+          "8000::123:4567:89AB:CDEF",
+          "8000:0:0:0:123:4567:89AB:CDEF",
+          "8000:0:0:0:0123:4567:89AB:CDEF",
+          "8000:0:0:123:4567:89AB:CDEF",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The IPv6 address 8000:0000:0000:0000:0123:4567:89AB:CDEF can be optimized to 8000::123:4567:89AB:CDEF.",
+      },
+      {
+        question: "Las direcciones IP v6 son de 122 bits.",
+        options: ["Falso", "Verdadero"],
+        answer: [0],
+        multi: false,
+        explanation: "IPv6 addresses are 128 bits, not 122 bits.",
+      },
+      {
+        question:
+          "IPv6 permite tres tipos de direcciones, estos son: Seleccione las 3 (tres) respuestas correctas.",
+        options: ["Multidifusión", "Unidifusión", "Monodifusión", "Anycast"],
+        answer: [0, 1, 3],
+        multi: true,
+        explanation:
+          "IPv6 allows three types of addresses: Multicast, Unicast, and Anycast.",
+      },
+      {
+        question: "DHCP es una sigla que en castellano significa:",
+        options: [
+          "Protocolo de Configuración Dinámica de Host",
+          "Protocolo de Control Dinámico de Host",
+          "Protocolo de Comunicación Dinámica de Host",
+          "Protocolo de Configuración Directa de Host",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "DHCP stands for Dynamic Host Configuration Protocol, translated as Protocolo de Configuración Dinámica de Host in Spanish.",
+      },
+      {
+        question:
+          "Respecto de ICMP (Protocolo de Mensajes de Control en Internet), ¿Qué herramienta se utiliza para ver si un destino dado es alcanzable y está vivo?",
+        options: ["Ping", "Traceroute", "Netstat", "Nslookup"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Ping is used to check if a given destination is reachable and alive.",
+      },
+      {
+        question:
+          "Respecto de ICMP (Protocolo de Mensajes de Control en Internet) ¿Qué herramienta permite detectar que los paquetes se están repitiendo o que los valores establecidos en el contador TTL son muy bajos?",
+        options: ["Traceroute", "Ping", "Netstat", "Nslookup"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Traceroute allows detecting packet repetition or low TTL values.",
+      },
+      {
+        question:
+          "Respecto del enrutamiento, OSPF es una sigla que en castellano significa:",
+        options: [
+          "Abrir primero la ruta más corta",
+          "Protocolo de ruta abierta",
+          "Sistema de ruta más corta",
+          "Protocolo de enrutamiento abierto",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "OSPF stands for Open Shortest Path First, translated as Abrir primero la ruta más corta in Spanish.",
+      },
+      {
+        question:
+          "Respecto de los algoritmos de enrutamiento, uno de éstos se debe a Dijkstra (1959) y se conoce como:",
+        options: [
+          "Algoritmo de la ruta más corta",
+          "Algoritmo de la ruta óptima",
+          "Algoritmo de Dijkstra",
+          "Algoritmo de camino más rápido",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "One of the routing algorithms, known as the shortest path algorithm, is due to Dijkstra (1959).",
+      },
+      {
+        question:
+          "Respecto de los algoritmos de enrutamiento, cuando cada paquete entrante se envía en todas las líneas de salida, excepto en la línea por la que llegó estamos haciendo referencia, ¿A qué técnica?",
+        options: ["Inundación", "Difusión", "Multiplexación", "Unicast"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Flooding is the technique where each incoming packet is sent out on all outgoing lines except the one it arrived on.",
+      },
+      {
+        question:
+          "¿Cómo se llama el algoritmo en el que los enrutadores se dividen en lo que llamaremos regiones? Cada enrutador conoce todos los detalles para enrutar paquetes a destinos dentro de su propia región, pero no sabe nada de la estructura interna de las otras regiones.",
+        options: [
+          "Enrutamiento jerárquico",
+          "Enrutamiento por vector de distancia",
+          "Enrutamiento por estado de enlace",
+          "Enrutamiento dinámico",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Hierarchical routing is the algorithm where routers are divided into regions.",
+      },
+      {
+        question:
+          "¿Cómo se llama el algoritmo en el que los hosts necesitan enviar mensajes a varios o a todos los hosts en la red enviando simultáneamente paquetes a todos los destinos? Por ejemplo, el servicio de distribución de informes sobre el clima.",
+        options: ["Difusión", "Inundación", "Multiplexación", "Unicast"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Broadcasting is the algorithm where hosts need to send messages to several or all hosts on the network.",
+      },
+      {
+        question:
+          "En relación a los algoritmos de enrutamiento, podemos agruparlos en dos clases principales: (seleccione la opción correcta)",
+        options: [
+          "No adaptativos y adaptativos",
+          "Estáticos y dinámicos",
+          "Centralizados y descentralizados",
+          "Locales y globales",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Routing algorithms can be grouped into two main classes: non-adaptive and adaptive.",
+      },
+      {
+        question:
+          "¿Cómo se llama el algoritmo que opera haciendo que cada enrutador mantenga una tabla que proporcione la mejor distancia conocida a cada destino y el enlace que se puede usar para llegar ahí?",
+        options: [
+          "Algoritmo de enrutamiento por vector de distancia",
+          "Algoritmo de enrutamiento por estado de enlace",
+          "Algoritmo de enrutamiento adaptativo",
+          "Algoritmo de enrutamiento estático",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The distance-vector routing algorithm operates by having each router maintain a table providing the best-known distance to each destination and the link to use to get there.",
+      },
+      {
+        question:
+          "¿Con que otro nombre se conoce al algoritmo de enrutamiento por vector de distancia?",
+        options: ["RIP", "OSPF", "EIGRP", "BGP"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The distance-vector routing algorithm is also known as RIP (Routing Information Protocol).",
+      },
+      {
+        question:
+          "Respecto del enrutamiento, dentro de un solo sistema autónomo, OSPF e IS-IS son los protocolos de uso común. Entre los sistemas autónomos se utiliza un protocolo diferente, conocido como:",
+        options: ["BGP", "EIGRP", "RIP", "OSPF"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "Within a single autonomous system, OSPF and IS-IS are commonly used protocols. Between autonomous systems, a different protocol known as BGP (Border Gateway Protocol) is used.",
+      },
+      {
+        question:
+          "¿Cuál de las siguientes es una organización dedicada a los estándares en telecomunicaciones?",
+        options: ["IEEE", "ISO", "IETF", "ITU"],
+        answer: [0],
+        multi: false,
+        explanation:
+          "IEEE (Institute of Electrical and Electronics Engineers) is an organization dedicated to telecommunications standards.",
+      },
+      {
+        question:
+          "Respecto del modelo OSI, ¿Cuál es la principal tarea de la capa de enlace de datos?",
+        options: [
+          "Transformar un medio de transmisión puro en una línea que esté libre de errores de transmisión",
+          "Encaminar los paquetes desde el origen hasta el destino",
+          "Gestionar las conexiones entre máquinas",
+          "Asegurar la entrega de los paquetes",
+        ],
+        answer: [0],
+        multi: false,
+        explanation:
+          "The main task of the data link layer in the OSI model is to transform a raw transmission medium into a line that appears free of transmission errors.",
+      },
+      {
+        question:
+          "Todas las técnicas 802:11 usan radios de corto alcance para transmitir señales en dos bandas de frecuencias ISM de: Seleccione las 2 (dos) respuestas correctas.",
+        options: ["5GHz", "2.4 GHz", "3.6 GHz", "4.9 GHz"],
+        answer: [0, 1],
+        multi: true,
+        explanation:
+          "All 802.11 techniques use short-range radios to transmit signals in the 5GHz and 2.4GHz ISM frequency bands.",
+      },
+    ],
+  },
+
+  {
     name: "Estadistica 1 Parcial 2",
     questions: [
       {
